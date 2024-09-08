@@ -1,4 +1,4 @@
-![SVS_patch_preview]()
+![SVS_patch_preview](https://github.com/user-attachments/assets/c9f399b9-0858-462a-9e66-de4f55f6e2ca)
 
 # HF Patch for Summer Vacation Scramble!
 An unofficial patch for [Summer Vacation Scramble](https://www.illgames.jp/product/svs/) (Samabake Scramble / サマバケ！すくらんぶる) with all free updates, fan-made English translations and essential mods. It will allow you to load all character cards and scenes and give you countless gameplay improvements while still keeping the original, uncluttered and clean feel of the game. All content is tested and fixed (or removed) as needed before each update. HF Patch can repair many common problems, try it if you have issues with your game or mod setup.
