@@ -194,7 +194,7 @@ Name: delete; Description: "{cm:TaskDelete}";
 ;Name: delete\Sidemods; Description: "{cm:TaskDeleteSide}"
 Name: delete\Plugins; Description: "{cm:TaskDeletePlugins}";
 Name: delete\Config; Description: "{cm:TaskDeletePluginSettings}"; Flags: unchecked
-;Name: delete\scripts; Description: "Delete old scripts"
+Name: delete\scripts; Description: "Delete old scripts (ScriptLoader, frida)"
 Name: delete\Listfiles; Description: "{cm:TaskDeleteLst}"; Flags: unchecked
 ;Name: fixSideloaderDupes; Description: "{cm:TaskSideDupes}";
 
@@ -548,8 +548,13 @@ begin
     //if (IsTaskSelected('delete\Listfiles')) then
     //  RemoveNonstandardListfiles(ExpandConstant('{app}'));
     
-    if (IsTaskSelected('delete\scripts')) then
+    if (IsTaskSelected('delete\scripts')) then begin
       DelTree(ExpandConstant('{app}\scripts'), True, True, True);
+      DelTree(ExpandConstant('{app}\frida-scripts'), True, True, True);
+      DeleteFile(ExpandConstant('{app}\dxgi.dll'));
+      DeleteFile(ExpandConstant('{app}\frida-gadget.config'));
+      DeleteFile(ExpandConstant('{app}\frida-gadget.dll'));
+    end;
 
     SetConfigDefaults(ExpandConstant('{app}'));
   end;

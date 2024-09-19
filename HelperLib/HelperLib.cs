@@ -271,6 +271,15 @@ icacls ""%target%"" /grant *S-1-1-0:(OI)(CI)F /T /C /L /Q
                 if (Directory.Exists(dhhPath))
                     filesToBackup.AddRange(Directory.GetFiles(dhhPath, "*", SearchOption.AllDirectories));
 
+                var fridaPath = Path.Combine(fullPath, "frida-scripts");
+                if (Directory.Exists(fridaPath))
+                {
+                    filesToBackup.AddRange(Directory.GetFiles(fridaPath, "*", SearchOption.AllDirectories));
+                    filesToBackup.Add(Path.Combine(fullPath, "dxgi.dll"));
+                    filesToBackup.Add(Path.Combine(fullPath, "frida-gadget.config"));
+                    filesToBackup.Add(Path.Combine(fullPath, "frida-gadget.dll"));
+                }
+
                 if (!filesToBackup.Any()) return;
 
                 using (var file = File.OpenWrite(Path.Combine(fullPath, $"Plugin_Backup_{DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss")}.zip")))
@@ -280,11 +289,14 @@ icacls ""%target%"" /grant *S-1-1-0:(OI)(CI)F /T /C /L /Q
                     {
                         try
                         {
-                            using (var toAddStream = File.OpenRead(toAdd))
+                            if(File.Exists(toAdd))
                             {
-                                var entry = zip.CreateEntry(toAdd.Substring(fullPath.Length + 1), CompressionLevel.Fastest);
-                                using (var entryStream = entry.Open())
-                                    toAddStream.CopyTo(entryStream);
+                                using (var toAddStream = File.OpenRead(toAdd))
+                                {
+                                    var entry = zip.CreateEntry(toAdd.Substring(fullPath.Length + 1), CompressionLevel.Fastest);
+                                    using (var entryStream = entry.Open())
+                                        toAddStream.CopyTo(entryStream);
+                                }
                             }
                         }
                         catch (Exception ex)
