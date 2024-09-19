@@ -3,7 +3,12 @@
 - Author(s):         BepInEx (anonymous IL2CPP port)
 - More information:  https://github.com/BepInEx/BepInEx.ConfigurationManager
 
-# BepInEx-Unity.IL2CPP win-x64 v6.0.0 be.711
+# BepInEx.SplashScreen_BepInEx6 v2.2.1.1
+- Short description: A loading screen on game startup with information about patchers and plugins being currently loaded
+- Author(s):         https://github.com/BepInEx
+- More information:  https://github.com/BepInEx/BepInEx.SplashScreen
+
+# BepInEx-Unity.IL2CPP win-x64 v6.0.0.0
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
@@ -13,10 +18,20 @@
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
+# Cheat Tools v3.3.2
+- Short description: Trainer, press F12 to open, it's in the bottom left corner
+- Author(s):         ManlyMarco
+- More information:  https://github.com/ManlyMarco/IllusionCheatTools
+
 # Custom intro voices v29.0
 - Short description: What the fuck is that
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
+
+# DisplayofThumbnails v0.1.0.2
+- Short description: Enlarges some lists in character maker
+- Author(s):         Sabakan
+- More information:  Koikatsu Discord Server
 
 # Enable Full Screen Toggle v0.7
 - Short description: Allow toggling full screen with Alt+Enter
@@ -27,6 +42,11 @@
 - Short description: Enable resizing of game window
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
+
+# FixationalEyeMovement v1.0.2
+- Short description: Make character's eyes in H scenes move randomly
+- Author(s):         Sabakan
+- More information:  Koikatsu Discord Server
 
 # Graphics Settings v0.7
 - Short description: More graphics settings, access from plugin settings
@@ -63,12 +83,12 @@
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# Runtime Unity Editor v5.4.1
+# Runtime Unity Editor v5.4.2
 - Short description: Debugging tool for applications made with Unity3D game engine (IL2CPP runtime)
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
-# SVS Uncensored HardMod Rev2
+# SVS Uncensored HardMod Rev3
 - Short description: Basic male and female uncensor, scrunchy
 - Author(s):         DarkSoldier27
 - More information:  Koikatsu discord server
@@ -78,10 +98,30 @@
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
 
+# SVS_Hair v0.0.1
+- Short description: Make hair partially transparent over the eyes
+- Author(s):         ekibun
+- More information:  Koikatsu Discord Server
+
+# SVS_SliderUnlock v1.0.0.1
+- Short description: Unlocks ranges of most character maker sliders
+- Author(s):         Samsung Galaxy Note 10+
+- More information:  IllGames Global Unofficial Discord Server
+
+# SVS_Subtitles v0.0.2.0
+- Short description: Adds subtitles to H Scenes. Japanese subtitles are also available
+- Author(s):         ekibun and others
+- More information:  https://github.com/IllusionMods/SVS-Translation
+
 # Texture Trigger v0.2
 - Short description: Workaround for some images not getting translated by AutoTranslator
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/SVS-Translation
+
+# Web Request Blocker v1.1.2
+- Short description: Fixes the game requiring internet connection to start
+- Author(s):         Unknown
+- More information:  Koikatsu Discord Server
 
 # XUnity Auto Translator v5.4.0
 - Short description: Translation loader, automatic web translations
