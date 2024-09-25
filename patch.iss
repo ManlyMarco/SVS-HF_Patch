@@ -5,7 +5,7 @@
 ; (at your option) any later version.
 
 ;-------------Full game name for naming patch itself and desktop icons
-#define NAME "Summer Vacation Scramble"
+#define NAME "Summer Vacation! Scramble"
 ;---------------------------------------------Current HF Patch version
 #define VERSION "1.1"
 ;--Don't include any files in the build to make it go fast for testing
@@ -187,9 +187,12 @@ Type: files; Name: "{app}\DigitalCraft\.doorstop_version"; Components: BepInEx
 Root: HKCU; Subkey: "Software\ILLGAMES"
 Root: HKCU; Subkey: "Software\ILLGAMES\SamabakeScramble"
 Root: HKCU; Subkey: "Software\ILLGAMES\SamabakeScramble"; ValueType: string; ValueName: "INSTALLDIR_HFP"; ValueData: "{app}\"
+Root: HKCU; Subkey: "Software\ILLGAMES\SamabakeScramble"; ValueType: string; ValueName: "INSTALLDIR"; ValueData: "{app}\"; Tasks: regfix
+Root: HKCU; Subkey: "Software\ILLGAMES\SamabakeScramble"; ValueType: string; ValueName: "PRODUCTNAME"; ValueData: "サマバケ！すくらんぶる"; Tasks: regfix
 
 [Tasks]
 Name: desktopicon; Description: "{cm:TaskIcon}"; Flags: unchecked
+Name: regfix; Description: "Fix game registry (fixes DigitalCraft not detecting SVS)"
 Name: delete; Description: "{cm:TaskDelete}";
 ;Name: delete\Sidemods; Description: "{cm:TaskDeleteSide}"
 Name: delete\Plugins; Description: "{cm:TaskDeletePlugins}";
