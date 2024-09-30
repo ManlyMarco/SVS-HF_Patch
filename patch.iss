@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer Vacation! Scramble"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.2"
+#define VERSION "1.2.1"
 ;--Don't include any files in the build to make it go fast for testing
 ;#define DEBUG
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
@@ -86,6 +86,7 @@ Source: "Input\Custom_doorstop\*";        DestDir: "{app}"; Flags: ignoreversion
 Source: "Input\BepInEx_config\*";         DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: BepInEx
 ;Source: "Input\BepInEx_Dev\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: BepInEx\Dev
 Source: "Input\Default_configs\*"; DestDir: "{app}\BepInEx\config"; Flags: ignoreversion recursesubdirs onlyifdoesntexist; Components: BepInEx
+Source: "Input\ByteFiddler.cfg"; DestDir: "{app}\BepInEx\config"; Flags: ignoreversion solidbreak; Components: BepInEx
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_TL\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs; Components: AT\TL
 
