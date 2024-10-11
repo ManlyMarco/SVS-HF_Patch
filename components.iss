@@ -20,11 +20,11 @@ Name: "UNC\UncensorHardmod";                   Description: "SVS Uncensored Hard
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "Content";                               Description: "Additional content (Needed to properly load most character cards and scenes)"         ; Types: full_en full extra extra_en
 #ifndef LITE
-; Name: "Content\Hardmods";                      Description: "Hardmod pack 2024/02/20 (Numerous clothing and accessory mods. Can't be uninstalled!)"; Types: extra extra_en
-; Name: "Content\Hardmods\HardmodCards";         Description: "Character and outfit cards (A lot of extra cards that came included with the hardmods. Will fill up your character list!)"
+Name: "Content\Hardmods";                      Description: "Hardmod pack 2024/10/10 (Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!)"
+Name: "Content\Hardmods\HardmodCards";         Description: "Character and outfit cards (A lot of extra cards that came included with the hardmods. Will fill up your character list!)"
+Name: "Content\MapPack";                       Description: "SVS Custom Expansion v0.6.1 (Custom maps for the game)"                               
 #endif 
 ; Name: "Content\SliderUnlock";                  Description: "SVS_SliderUnlock v1.0.0.1 (Unlocks ranges of most character maker sliders)"           ; Types: full_en full extra extra_en
-Name: "Content\Hardmods";                      Description: "Hardmod pack 2024/07/17 (Numerous clothing and accessory mods. Can't be uninstalled!)"; Types: extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "FIX";                                   Description: "{cm:CompFIX}"                                                                         ; Types: extra extra_en
 Name: "FIX\IllusionFixes";                     Description: "IllusionFixes_IL2CPP v21.6 (A collection of essential fixes and improvements)"        ; Types: full_en full extra extra_en custom bare
@@ -33,8 +33,10 @@ Name: "FIX\WebRequestBlocker";                 Description: "Web Request Blocker
 Name: "FIX\ProcessorAffinityOverride";         Description: "ProcessorAffinityOverride v1.0 (Overrides processor affinity, needed to fix game crashes on Ryzen 3xxx systems)"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "Feature";                               Description: "Improvements and additional features"                                                 
-Name: "Feature\MuteInBackground";              Description: "Mute In Background v0.7 (Mute the game when it's not in focus, configure in plugin settings)"; Types: full_en full extra extra_en
+Name: "Feature\ClothingStateMenu";             Description: "Clothing State Menu v5.0 (Can undress in chara maker and in H scenes)"                ; Types: full_en full extra_en extra
 Name: "Feature\EnableFullScreenToggle";        Description: "Enable Full Screen Toggle v0.7 (Allow toggling full screen with Alt+Enter)"           ; Types: full_en full extra extra_en
+Name: "Feature\MuteInBackground";              Description: "Mute In Background v0.7 (Mute the game when it's not in focus, configure in plugin settings)"; Types: full_en full extra extra_en
+Name: "Feature\SVS_PovX";                      Description: "SVS_PovX v0.0.2 (Adds first-person view in H scenes, check hotkeys in plugin settings)"; Types: full_en full extra extra_en
 Name: "Feature\EnableResize";                  Description: "Enable Resize v0.7 (Enable resizing of game window)"                                  ; Types: extra extra_en
 Name: "Feature\GraphicsSettings";              Description: "Graphics Settings v0.7 (More graphics settings, access from plugin settings)"         
 Name: "Feature\SVS_Hair";                      Description: "SVS_Hair v0.0.1 (Make hair partially transparent over the eyes)"                      
@@ -44,7 +46,7 @@ Name: "Feature\LoveMachine";                   Description: "LoveMachine v3.19.1
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "MISC";                                  Description: "{cm:CompMISC}"                                                                        
 Name: "MISC\RuntimeUnityEditor_BepInEx6_IL2CPP"; Description: "Runtime Unity Editor v5.5.1 (Debugging tool for applications made with Unity3D game engine (IL2CPP runtime))"; Types: full_en full extra extra_en
-Name: "MISC\RuntimeUnityEditor\Trainer";       Description: "Cheat Tools v3.4 (Trainer, press F12 to open, it's in the bottom left corner)"        ; Types: full_en full extra extra_en
+Name: "MISC\RuntimeUnityEditor\Trainer";       Description: "Cheat Tools v3.5 (Trainer, press F12 to open, it's in the bottom left corner)"        ; Types: full_en full extra extra_en
 ; Name: "MISC\FullSave";                         Description: "Full Save (Save file with everything unlocked in main game. Overwrites your current progress!)"
 Name: "MISC\Memes";                            Description: "Custom intro voices v29.0 (What the fuck is that)"                                    ; Types: extra extra_en
 
@@ -61,6 +63,8 @@ Source: "Input\_Plugins\_out\MuteInBackgroundIL2CPP_net6\*"; DestDir: "{app}"; F
 Source: "Input\_Plugins\_out\SVS_DisplayofThumbnails\*";    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\DisplayofThumbnails; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_FixationalEyeMovement\*";  DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\FixationalEyeMovement; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_Hair\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\SVS_Hair; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\SVS_ClothingStateMenu\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\ClothingStateMenu; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\SVS_PovX\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\SVS_PovX; Excludes: "manifest.xml"
 #ifndef LITE
 ; Source: "Input\_Plugins\_out\Hardmods\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods; Excludes: "manifest.xml"
 ; Source: "Input\_Plugins\_out\Hardmods_cards\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods\HardmodCards; Excludes: "manifest.xml"
@@ -80,3 +84,5 @@ Source: "Input\_Plugins\_out\XUnity.AutoTranslator-BepInEx-IL2CPP\*"; DestDir: "
 Source: "Input\_Plugins\_out\SVS_Subtitles\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT\TL\Subtitles; Excludes: "manifest.xml"
 ; Source: "Input\_Plugins\_out\SVS_SliderUnlock\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\SliderUnlock; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Hardmods\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\Hardmods_cards\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods\HardmodCards; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\SVS_CustomExpansion\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\MapPack; Excludes: "manifest.xml"

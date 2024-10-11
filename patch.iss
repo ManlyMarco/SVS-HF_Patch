@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer Vacation! Scramble"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.2.1"
+#define VERSION "1.3"
 ;--Don't include any files in the build to make it go fast for testing
 ;#define DEBUG
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
@@ -36,7 +36,7 @@ LZMAUseSeparateProcess=yes
 LZMADictionarySize=262144
 LZMANumFastBytes=273
 LZMANumBlockThreads=16
-DiskSpanning=no
+DiskSpanning=yes
 DefaultDirName={code:GetDefaultDirName}
 
 WindowResizable=yes
@@ -71,9 +71,9 @@ Source: "HelperLib.dll";                  DestDir: "{app}";                     
 Source: "Plugin Readme.md";               DestDir: "{app}"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_Patch\1_base\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
-Source: "Input\_Patch\2_0927-full\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
+Source: "Input\_Patch\2_1004-full\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
 Source: "Input\_Patch\8_man\*";                    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
-Source: "Input\_Patch\9_unhollowed-0927\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
+Source: "Input\_Patch\9_unhollowed-1004\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
 #endif
 
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -127,6 +127,13 @@ Type: files; Name: "{app}\SamabakeScramble.exe.config"
 Type: files; Name: "{app}\BepInEx\patchers\IMGUIModule.Il2Cpp.CoreCLR.Patcher.dll"; Components: BepInEx\ConfigurationManager_Il2Cpp
 Type: files; Name: "{app}\BepInEx\plugins\ConfigurationManager.dll";                Components: BepInEx\ConfigurationManager_Il2Cpp
 Type: files; Name: "{app}\BepInEx\plugins\BepInEx.KeyboardShortcut.dll";            Components: BepInEx\ConfigurationManager_Il2Cpp
+Type: filesandordirs; Name: "{app}\abdata\chara\TekitoMOD";                        Components: Content\Hardmods
+Type: files; Name: "{app}\abdata\adv\list\lit\000_40.unity3d";                        Components: Content\MapPack
+Type: files; Name: "{app}\abdata\map\list\040_00.unity3d";                        Components: Content\MapPack
+Type: files; Name: "{app}\abdata\map\scene\000_40\40.unity3d";                        Components: Content\MapPack
+Type: files; Name: "{app}\abdata\map\ui\040_00.unity3d";                        Components: Content\MapPack
+Type: files; Name: "{app}\abdata\map\list\200_56.unity3d";                        Components: Content\MapPack
+
 
 ; Clean up old patches and packs
 Type: files; Name: "{app}\start.bat"

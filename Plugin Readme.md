@@ -18,10 +18,20 @@
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# Cheat Tools v3.4
+# Character and outfit cards
+- Short description: A lot of extra cards that came included with the hardmods. Will fill up your character list!
+- Author(s):         Multiple
+- More information:  Koikatsu discord server
+
+# Cheat Tools v3.5
 - Short description: Trainer, press F12 to open, it's in the bottom left corner
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/IllusionCheatTools
+
+# Clothing State Menu v5.0
+- Short description: Can undress in chara maker and in H scenes
+- Author(s):         ManlyMarco
+- More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
 
 # Custom intro voices v29.0
 - Short description: What the fuck is that
@@ -53,8 +63,8 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# Hardmod pack 2024/07/17
-- Short description: Numerous clothing and accessory mods. Can't be uninstalled!
+# Hardmod pack 2024/10/10
+- Short description: Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
 
@@ -93,6 +103,11 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
+# SVS Custom Expansion v0.6.1
+- Short description: Custom maps for the game
+- Author(s):         DarkSoldier27
+- More information:  Koikatsu discord server
+
 # SVS Uncensored HardMod Rev3
 - Short description: Basic male and female uncensor, scrunchy
 - Author(s):         DarkSoldier27
@@ -107,6 +122,11 @@
 - Short description: Make hair partially transparent over the eyes
 - Author(s):         ekibun
 - More information:  Koikatsu Discord Server
+
+# SVS_PovX v0.0.2
+- Short description: Adds first-person view in H scenes, check hotkeys in plugin settings
+- Author(s):         ekibun
+- More information:  KK discord
 
 # SVS_Subtitles v0.0.2.0
 - Short description: Adds subtitles to H Scenes. Japanese subtitles are also available
