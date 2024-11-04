@@ -261,6 +261,11 @@ external 'RemoveSideloaderDuplicates@files:HelperLib.dll stdcall';
 procedure RemoveModsExceptModpacks(path: String);
 external 'RemoveModsExceptModpacks@files:HelperLib.dll stdcall';
 
+function PersonalityDlcInstalled(): Boolean;
+begin
+  Result := FileExists(ExpandConstant('{app}\abdata\sv_add020_00'));
+end;
+
 function DolceInstalled(): Boolean;
 begin
   Result := FileExists(ExpandConstant('{app}\DigitalCraft\DigitalCraft.exe'));
@@ -435,9 +440,9 @@ begin
       else
       begin
         // Check for missing paid DLC
-        if not DolceInstalled() then
+        if not PersonalityDlcInstalled() then
         begin
-          //SuppressibleMsgBox(ExpandConstant('{cm:MsgMissingDLC1}'), mbInformation, MB_OK, 0);
+          SuppressibleMsgBox(ExpandConstant('{cm:MsgMissingDLC1}'), mbInformation, MB_OK, 0);
         end;
       end;
     end;
