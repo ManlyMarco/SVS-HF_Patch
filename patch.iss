@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer Vacation! Scramble"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.3"
+#define VERSION "1.4"
 ;--Don't include any files in the build to make it go fast for testing
 ;#define DEBUG
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
@@ -35,7 +35,7 @@ LZMAUseSeparateProcess=yes
 ;LZMADictionarySize=108576
 LZMADictionarySize=262144
 LZMANumFastBytes=273
-LZMANumBlockThreads=16
+LZMANumBlockThreads=15
 DiskSpanning=yes
 DefaultDirName={code:GetDefaultDirName}
 
@@ -71,9 +71,9 @@ Source: "HelperLib.dll";                  DestDir: "{app}";                     
 Source: "Plugin Readme.md";               DestDir: "{app}"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_Patch\1_base\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
-Source: "Input\_Patch\2_1004-full\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
+Source: "Input\_Patch\2_1101-full\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
 Source: "Input\_Patch\8_man\*";                    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
-Source: "Input\_Patch\9_unhollowed-1004\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
+Source: "Input\_Patch\9_unhollowed-1101\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
 #endif
 
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

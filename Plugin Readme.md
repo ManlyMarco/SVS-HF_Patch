@@ -33,8 +33,8 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
 
-# Custom intro voices v29.0
-- Short description: What the fuck is that
+# Custom intro voices v30.0
+- Short description: Nice crock bro
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
 
@@ -72,6 +72,11 @@
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionFixes
+
+# JumpLister v1.0.0
+- Short description: Adds useful options to the game's Jump List in taskbar right-click menu
+- Author(s):         ManlyMarco
+- More information:  https://github.com/ManlyMarco/JumpLister
 
 # KKManager v1.4.1.0
 - Short description: Manage and update mods, browse cards
@@ -129,7 +134,7 @@
 - More information:  KK discord
 
 # SVS_Subtitles v0.0.2.0
-- Short description: Adds subtitles to H Scenes. Japanese subtitles are also available
+- Short description: Adds subtitles to H Scenes. Japanese subtitles are also available. Very bad quality
 - Author(s):         ekibun and others
 - More information:  https://github.com/IllusionMods/SVS-Translation
 

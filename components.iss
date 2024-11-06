@@ -12,7 +12,7 @@ Name: "API\SVS_BepisPlugins";                  Description: "SVS_BepisPlugins v2
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "AT";                                    Description: "XUnity Auto Translator v5.4.0 (Translation loader, automatic web translations)"       ; Types: full extra full_en extra_en custom
 Name: "AT\TL";                                 Description: "{cm:CompTL}"                                                                          ; Types: full_en extra_en
-Name: "AT\TL\Subtitles";                       Description: "SVS_Subtitles v0.0.2.0 (Adds subtitles to H Scenes. Japanese subtitles are also available)"; Types: full_en extra_en
+Name: "AT\TL\Subtitles";                       Description: "SVS_Subtitles v0.0.2.0 (Adds subtitles to H Scenes. Japanese subtitles are also available. Very bad quality)"; Types: full_en extra_en
 Name: "AT\TextureTrigger";                     Description: "Texture Trigger v0.2 (Workaround for some images not getting translated by AutoTranslator)"; Types: full_en extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "UNC";                                   Description: "{cm:CompUNC}"                                                                         ; Types: full_en full extra extra_en
@@ -37,10 +37,11 @@ Name: "Feature\ClothingStateMenu";             Description: "Clothing State Menu
 Name: "Feature\EnableFullScreenToggle";        Description: "Enable Full Screen Toggle v0.7 (Allow toggling full screen with Alt+Enter)"           ; Types: full_en full extra extra_en
 Name: "Feature\MuteInBackground";              Description: "Mute In Background v0.7 (Mute the game when it's not in focus, configure in plugin settings)"; Types: full_en full extra extra_en
 Name: "Feature\SVS_PovX";                      Description: "SVS_PovX v0.0.2 (Adds first-person view in H scenes, check hotkeys in plugin settings)"; Types: full_en full extra extra_en
+Name: "Feature\JumpLister";                    Description: "JumpLister v1.0.0 (Adds useful options to the game's Jump List in taskbar right-click menu)"; Types: full_en full extra extra_en
 Name: "Feature\EnableResize";                  Description: "Enable Resize v0.7 (Enable resizing of game window)"                                  ; Types: extra extra_en
+Name: "Feature\FixationalEyeMovement";         Description: "FixationalEyeMovement v1.0.2 (Make character's eyes in H scenes move randomly)"       ; Types: extra extra_en
 Name: "Feature\GraphicsSettings";              Description: "Graphics Settings v0.7 (More graphics settings, access from plugin settings)"         
 Name: "Feature\SVS_Hair";                      Description: "SVS_Hair v0.0.1 (Make hair partially transparent over the eyes)"                      
-Name: "Feature\FixationalEyeMovement";         Description: "FixationalEyeMovement v1.0.2 (Make character's eyes in H scenes move randomly)"       ; Types: extra extra_en
 Name: "Feature\DisplayofThumbnails";           Description: "DisplayofThumbnails v0.1.0.2 (Enlarges some lists in character maker)"                
 Name: "Feature\LoveMachine";                   Description: "LoveMachine v3.19.101 (Adds support for some computer-controlled sex toys)"           
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -48,7 +49,7 @@ Name: "MISC";                                  Description: "{cm:CompMISC}"
 Name: "MISC\RuntimeUnityEditor_BepInEx6_IL2CPP"; Description: "Runtime Unity Editor v5.5.1 (Debugging tool for applications made with Unity3D game engine (IL2CPP runtime))"; Types: full_en full extra extra_en
 Name: "MISC\RuntimeUnityEditor\Trainer";       Description: "Cheat Tools v3.5 (Trainer, press F12 to open, it's in the bottom left corner)"        ; Types: full_en full extra extra_en
 ; Name: "MISC\FullSave";                         Description: "Full Save (Save file with everything unlocked in main game. Overwrites your current progress!)"
-Name: "MISC\Memes";                            Description: "Custom intro voices v29.0 (What the fuck is that)"                                    ; Types: extra extra_en
+Name: "MISC\Memes";                            Description: "Custom intro voices v30.0 (Nice crock bro)"                                           ; Types: extra extra_en
 
 [Files]
 Source: "Input\_Plugins\_out\BepInEx-Unity.IL2CPP-win-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: BepInEx; Excludes: "manifest.xml"
@@ -65,6 +66,7 @@ Source: "Input\_Plugins\_out\SVS_FixationalEyeMovement\*";  DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\SVS_Hair\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\SVS_Hair; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_ClothingStateMenu\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\ClothingStateMenu; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_PovX\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\SVS_PovX; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\HCSVS_JumpLister\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\JumpLister; Excludes: "manifest.xml"
 #ifndef LITE
 ; Source: "Input\_Plugins\_out\Hardmods\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods; Excludes: "manifest.xml"
 ; Source: "Input\_Plugins\_out\Hardmods_cards\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods\HardmodCards; Excludes: "manifest.xml"
