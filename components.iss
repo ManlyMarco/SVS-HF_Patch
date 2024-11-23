@@ -5,7 +5,7 @@ Name: "BepInEx\ConfigurationManager_Il2Cpp";   Description: "BepInEx.Configurati
 Name: "BepInEx\BepInEx_SplashScreen_BepInEx6"; Description: "BepInEx.SplashScreen_BepInEx6 v2.2.1.1 (A loading screen on game startup with information about patchers and plugins being currently loaded)"; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; Name: "IllusionLaunchers";                     Description: "IllusionLaunchers_HoneyCome v3.4.1.36297 (Custom game launcher)"                      ; Types: full_en full extra extra_en custom
-Name: "KKManager";                             Description: "KKManager v1.4.1.0 (Manage and update mods, browse cards)"                            ; Types: full_en full extra extra_en custom
+Name: "KKManager";                             Description: "KKManager v1.4.2.0 (Manage and update mods, browse cards)"                            ; Types: full_en full extra extra_en custom
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "API";                                   Description: "APIs (Plugins required by other plugins and mods to function)"                        ; Types: full_en full extra extra_en custom bare; Flags: fixed
 Name: "API\SVS_BepisPlugins";                  Description: "SVS_BepisPlugins v20.0 (Essential plugins required by many other plugins to function)"; Types: full_en full extra extra_en
@@ -20,11 +20,12 @@ Name: "UNC\UncensorHardmod";                   Description: "SVS Uncensored Hard
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "Content";                               Description: "Additional content (Needed to properly load most character cards and scenes)"         ; Types: full_en full extra extra_en
 #ifndef LITE
-Name: "Content\Hardmods";                      Description: "Hardmod pack 2024/10/10 (Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!)"
+Name: "Content\Hardmods";                      Description: "Hardmod pack 2024/11/23 (Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!)"
 Name: "Content\Hardmods\HardmodCards";         Description: "Character and outfit cards (A lot of extra cards that came included with the hardmods. Will fill up your character list!)"
 Name: "Content\MapPack";                       Description: "SVS Custom Expansion v0.6.1 (Custom maps for the game)"                               
 #endif 
 ; Name: "Content\SliderUnlock";                  Description: "SVS_SliderUnlock v1.0.0.1 (Unlocks ranges of most character maker sliders)"           ; Types: full_en full extra extra_en
+Name: "Content\SVS_TraitUnlocker";             Description: "TraitUnlocker v1.0 (Unlocks trait limit in maker)"                                    ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "FIX";                                   Description: "{cm:CompFIX}"                                                                         ; Types: extra extra_en
 Name: "FIX\IllusionFixes";                     Description: "IllusionFixes_IL2CPP v21.6 (A collection of essential fixes and improvements)"        ; Types: full_en full extra extra_en custom bare
@@ -41,9 +42,10 @@ Name: "Feature\JumpLister";                    Description: "JumpLister v1.0.0 (
 Name: "Feature\EnableResize";                  Description: "Enable Resize v0.7 (Enable resizing of game window)"                                  ; Types: extra extra_en
 Name: "Feature\FixationalEyeMovement";         Description: "FixationalEyeMovement v1.0.2 (Make character's eyes in H scenes move randomly)"       ; Types: extra extra_en
 Name: "Feature\GraphicsSettings";              Description: "Graphics Settings v0.7 (More graphics settings, access from plugin settings)"         
-Name: "Feature\SVS_Hair";                      Description: "SVS_Hair v0.0.1 (Make hair partially transparent over the eyes)"                      
+Name: "Feature\SVS_Hair";                      Description: "SVS_Hair v0.0.2 (Make hair partially transparent over the eyes)"                      
 Name: "Feature\DisplayofThumbnails";           Description: "DisplayofThumbnails v0.1.0.2 (Enlarges some lists in character maker)"                
 Name: "Feature\LoveMachine";                   Description: "LoveMachine v3.19.101 (Adds support for some computer-controlled sex toys)"           
+Name: "Feature\SVS_FavorabilityGainController"; Description: "FavorabilityGainController v1.0.1 (Allows changing point gain from interactions)"     ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "MISC";                                  Description: "{cm:CompMISC}"                                                                        
 Name: "MISC\RuntimeUnityEditor_BepInEx6_IL2CPP"; Description: "Runtime Unity Editor v5.5.1 (Debugging tool for applications made with Unity3D game engine (IL2CPP runtime))"; Types: full_en full extra extra_en
@@ -67,6 +69,7 @@ Source: "Input\_Plugins\_out\SVS_Hair\*";                   DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\SVS_ClothingStateMenu\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\ClothingStateMenu; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_PovX\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\SVS_PovX; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\HCSVS_JumpLister\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\JumpLister; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\SVS_FavorabilityGainController\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\SVS_FavorabilityGainController; Excludes: "manifest.xml"
 #ifndef LITE
 ; Source: "Input\_Plugins\_out\Hardmods\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods; Excludes: "manifest.xml"
 ; Source: "Input\_Plugins\_out\Hardmods_cards\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods\HardmodCards; Excludes: "manifest.xml"
@@ -88,3 +91,4 @@ Source: "Input\_Plugins\_out\SVS_Subtitles\*";              DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\Hardmods\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Hardmods_cards\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods\HardmodCards; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_CustomExpansion\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\MapPack; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\SVS_TraitUnlocker\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\SVS_TraitUnlocker; Excludes: "manifest.xml"

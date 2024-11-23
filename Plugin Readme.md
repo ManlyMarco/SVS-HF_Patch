@@ -53,6 +53,11 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
+# FavorabilityGainController v1.0.1
+- Short description: Allows changing point gain from interactions
+- Author(s):         DarkSoldier27
+- More information:  Discord
+
 # FixationalEyeMovement v1.0.2
 - Short description: Make character's eyes in H scenes move randomly
 - Author(s):         Sabakan
@@ -63,7 +68,7 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# Hardmod pack 2024/10/10
+# Hardmod pack 2024/11/23
 - Short description: Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
@@ -78,7 +83,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
 
-# KKManager v1.4.1.0
+# KKManager v1.4.2.0
 - Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -123,7 +128,7 @@
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
 
-# SVS_Hair v0.0.1
+# SVS_Hair v0.0.2
 - Short description: Make hair partially transparent over the eyes
 - Author(s):         ekibun
 - More information:  Koikatsu Discord Server
@@ -142,6 +147,11 @@
 - Short description: Workaround for some images not getting translated by AutoTranslator
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/SVS-Translation
+
+# TraitUnlocker v1.0
+- Short description: Unlocks trait limit in maker
+- Author(s):         DarkSoldier27
+- More information:  Discord
 
 # Web Request Blocker v1.1.2
 - Short description: Fixes the game requiring internet connection to start
