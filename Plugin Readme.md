@@ -1,4 +1,4 @@
-# BepInEx.ConfigurationManager v18.3
+# BepInEx.ConfigurationManager v18.4
 - Short description: Can change plugin settings. Press F1 to open
 - Author(s):         BepInEx (anonymous IL2CPP port)
 - More information:  https://github.com/BepInEx/BepInEx.ConfigurationManager
@@ -8,20 +8,20 @@
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.SplashScreen
 
-# BepInEx-Unity.IL2CPP win-x64 v6.0.0 be.725
+# BepInEx-Unity.IL2CPP win-x64 v6.0.0.0
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
-
-# ByteFiddler v1.0
-- Short description: Edit process memory at runtime, needed to fix game crashes
-- Author(s):         https://github.com/BepInEx
-- More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
 # Character and outfit cards
 - Short description: A lot of extra cards that came included with the hardmods. Will fill up your character list!
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
+
+# CharaFilter v0.0.3
+- Short description: Allows you to filter character/coordinate cards with personalities and folder categories
+- Author(s):         y0soro
+- More information:  https://github.com/y0soro/ILL_Plugins
 
 # Cheat Tools v3.5
 - Short description: Trainer, press F12 to open, it's in the bottom left corner
@@ -53,7 +53,7 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# FavorabilityGainController v1.0.1
+# FavorabilityGainController v1.2
 - Short description: Allows changing point gain from interactions
 - Author(s):         DarkSoldier27
 - More information:  Discord
@@ -68,17 +68,22 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# Hardmod pack 2024/11/23
+# H Start Clothing State v1.0.0
+- Short description: When you start H, clothing state will be applied according to configuration settings
+- Author(s):         PhillyStyle
+- More information:  https://github.com/PhillyStyle/SVS_HStartClothingState
+
+# Hardmod pack 2025/01/30
 - Short description: Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
 
-# IllusionFixes_IL2CPP v21.6
+# IllusionFixes_IL2CPP v22.0.2
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionFixes
 
-# JumpLister v1.0.0
+# JumpLister v1.1
 - Short description: Adds useful options to the game's Jump List in taskbar right-click menu
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
@@ -103,6 +108,11 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
+# Post H Clothing State Persistence v1.0.4
+- Short description: After H, clothing state will persist until the end of period based on config
+- Author(s):         PhillyStyle
+- More information:  https://github.com/PhillyStyle/SVS_PostHClothingStatePersistence
+
 # ProcessorAffinityOverride v1.0
 - Short description: Overrides processor affinity, needed to fix game crashes on Ryzen 3xxx systems
 - Author(s):         https://github.com/BepInEx
@@ -118,6 +128,11 @@
 - Author(s):         DarkSoldier27
 - More information:  Koikatsu discord server
 
+# SVS Everyone Take Off Your Clothes v1.0.0
+- Short description: Press hotkey (LeftAlt+C by default) to make everyone naked for a period of time
+- Author(s):         PhillyStyle
+- More information:  https://github.com/PhillyStyle/SVS_EveryoneTakeOffYourClothes
+
 # SVS Uncensored HardMod Rev3
 - Short description: Basic male and female uncensor, scrunchy
 - Author(s):         DarkSoldier27
@@ -128,6 +143,11 @@
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
 
+# SVS_FutanariSon v0.0.4
+- Short description: Can make everyone futanari, and disable futanari when in a female position
+- Author(s):         ekibun
+- More information:  Koikatsu Discord server
+
 # SVS_Hair v0.0.2
 - Short description: Make hair partially transparent over the eyes
 - Author(s):         ekibun
@@ -137,6 +157,11 @@
 - Short description: Adds first-person view in H scenes, check hotkeys in plugin settings
 - Author(s):         ekibun
 - More information:  KK discord
+
+# SVS_SliderUnlock v3.0.2
+- Short description: Unlocks ranges of most character maker sliders
+- Author(s):         Samsung Galaxy Note 10+
+- More information:  IllGames Global Unofficial Discord Server
 
 # SVS_Subtitles v0.0.2.0
 - Short description: Adds subtitles to H Scenes. Japanese subtitles are also available. Very bad quality
