@@ -61,7 +61,7 @@ Name: "custom";   Description: "{cm:customInstall}"; Flags: iscustom
 ;#define CurrentDate GetDateTimeString('yyyy-mm-dd', '-', ':');
 
 [Components]
-Name: "Patch";                    Description: "All free updates and common issue repair"                   ; Types: full_en full extra_en extra custom bare none; Flags: fixed
+Name: "Patch";                    Description: "All free updates and common issue repair; unlock Steam ver."                   ; Types: full_en full extra_en extra custom bare none; Flags: fixed
 ;Name: "Patch\VR";                 Description: "Install/Update VR Module"                                                         ; Types: extra_en extra
 ;-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -70,10 +70,14 @@ Source: "HelperLib.dll";                  DestDir: "{app}";                     
 #ifndef DEBUG
 Source: "Plugin Readme.md";               DestDir: "{app}"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Source: "Input\_Patch\1_base\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
-Source: "Input\_Patch\2_1213-full\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
-Source: "Input\_Patch\8_man\*";                    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
-Source: "Input\_Patch\9_unhollowed-1213\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Patch;
+Source: "Input\_Patch\1_base\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch; Check: not IsSteam
+Source: "Input\_Patch\2_1213-full\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: not IsSteam
+Source: "Input\_Patch\8_man\*";                    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: not IsSteam
+Source: "Input\_Patch\9_unhollowed-1213\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: not IsSteam
+
+Source: "Input\_Patch\st_1_base\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch; Check: IsSteam
+Source: "Input\_Patch\st_2_extra\*";               DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: IsSteam
+Source: "Input\_Patch\st_9_unhollowed\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: IsSteam
 #endif
 
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -107,10 +111,6 @@ Source: "Input\Config_jap\*";      DestDir: "{app}"; Flags: ignoreversion recurs
 Type: files; Name: "{app}\SamabakeScramble.exe.config" 
 ;Type: filesandordirs; Name: "{app}\BepInEx\LauncherEN"; Components: IllusionLaunchers
 ;Type: filesandordirs; Name: "{app}\UserData\LauncherEN"; Components: IllusionLaunchers
-; In past games was used by stock launcher in steam release, remove to declutter if using custom launcher
-;Type: filesandordirs; Name: "{app}\ja-JP"; Components: IllusionLaunchers   
-;Type: filesandordirs; Name: "{app}\zh-CN"; Components: IllusionLaunchers
-;Type: filesandordirs; Name: "{app}\zh-TW"; Components: IllusionLaunchers
 
 ; Clean up old modpacks. Large modpacks might not be fully included so don't remove here, instead they get cleaned up from old versions later
 #ifndef LITE
@@ -281,17 +281,7 @@ end;
 
 function IsSteam(): Boolean;
 begin
-  Result := FileExists(ExpandConstant('{app}\HoneyComeccp.exe'));
-end;
-
-function IsUnconvertedSteam(): Boolean;
-begin
-  Result := DirExists(ExpandConstant('{app}\HoneyComeccp_Data'));
-end;
-
-function IsConvertedSteam(): Boolean;
-begin
-  Result := IsSteam() and not IsUnconvertedSteam();
+  Result := FileExists(ExpandConstant('{app}\DefaultData\url\st_up_api_token.dat'));
 end;
 
 function DirectXRedistNeedsInstall(): Boolean;
