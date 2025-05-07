@@ -23,18 +23,18 @@
 - Author(s):         y0soro
 - More information:  https://github.com/y0soro/ILL_Plugins
 
-# Cheat Tools v3.5
+# Cheat Tools v3.6
 - Short description: Trainer, press F12 to open, it's in the bottom left corner
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/IllusionCheatTools
 
-# Clothing State Menu v5.0
+# Clothing State Menu v5.1
 - Short description: Can undress in chara maker and in H scenes
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
 
 # Custom intro voices v30.0
-- Short description: Nice crock bro
+- Short description: Michi is freaky
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
 
@@ -53,10 +53,15 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# FavorabilityGainController v1.2
+# FavorabilityGainController v1.3
 - Short description: Allows changing point gain from interactions
 - Author(s):         DarkSoldier27
 - More information:  Discord
+
+# Fishbone v1.4.0
+- Short description: Plugin api to serialize and deserialize character or coordinate bound extension data
+- Author(s):         MaybeSamigroup
+- More information:  https://github.com/MaybeSamigroup/SVS-Fishbone
 
 # FixationalEyeMovement v1.0.2
 - Short description: Make character's eyes in H scenes move randomly
@@ -73,7 +78,7 @@
 - Author(s):         PhillyStyle
 - More information:  https://github.com/PhillyStyle/SVS_HStartClothingState
 
-# Hardmod pack 2025/01/30
+# Hardmod pack 2025/05/06
 - Short description: Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
@@ -118,7 +123,7 @@
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# Runtime Unity Editor v5.5.1
+# Runtime Unity Editor v6.0
 - Short description: Debugging tool for applications made with Unity3D game engine (IL2CPP runtime)
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
@@ -153,10 +158,20 @@
 - Author(s):         ekibun
 - More information:  Koikatsu Discord Server
 
+# SVS_MapLoader v0.1.0
+- Short description: Adds extra functionality for custom maps
+- Author(s):         DarkSoldier27
+- More information:  Discord
+
 # SVS_PovX v0.0.2
 - Short description: Adds first-person view in H scenes, check hotkeys in plugin settings
 - Author(s):         ekibun
 - More information:  KK discord
+
+# SVS_SardineHead v1.0.5.0
+- Short description: Runtime texture and material modifier tool for character creator
+- Author(s):         MaybeSamigroup
+- More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
 
 # SVS_SliderUnlock v3.0.2
 - Short description: Unlocks ranges of most character maker sliders
@@ -183,7 +198,7 @@
 - Author(s):         Unknown
 - More information:  Koikatsu Discord Server
 
-# XUnity Auto Translator v5.4.0
+# XUnity Auto Translator v5.4.5
 - Short description: Translation loader, automatic web translations
 - Author(s):         https://github.com/bbepis
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator
