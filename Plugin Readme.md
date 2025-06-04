@@ -33,10 +33,15 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
 
-# Custom intro voices v30.0
-- Short description: Michi is freaky
+# Custom intro voices v31.0
+- Short description: Bau to the brainrot
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
+
+# CustomGameBalance v1.3.1
+- Short description: Tries to balance some aspect of the game
+- Author(s):         DarkSoldier27
+- More information:  Discord
 
 # DisplayofThumbnails v0.1.0.2
 - Short description: Enlarges some lists in character maker
@@ -53,12 +58,12 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# FavorabilityGainController v1.3
+# FavorabilityGainController v1.3.1
 - Short description: Allows changing point gain from interactions
 - Author(s):         DarkSoldier27
 - More information:  Discord
 
-# Fishbone v1.4.0
+# Fishbone v2.0.2
 - Short description: Plugin api to serialize and deserialize character or coordinate bound extension data
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-Fishbone
@@ -113,6 +118,16 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
+# PelvicFin v1.0.1
+- Short description: Allows modifying miscellaneous character statuses in character creation and H scenes
+- Author(s):         MaybeSamigroup
+- More information:  https://github.com/MaybeSamigroup/SVS-PelvicFin
+
+# PersonalityLoader v0.6
+- Short description: Enables custom personalities to work in the game
+- Author(s):         DarkSoldier27
+- More information:  Discord
+
 # Post H Clothing State Persistence v1.0.4
 - Short description: After H, clothing state will persist until the end of period based on config
 - Author(s):         PhillyStyle
@@ -128,6 +143,11 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
+# SardineTail v1.0.3.0
+- Short description: Fundamental plugin to develop soft mods for SamabakeScramble
+- Author(s):         MaybeSamigroup
+- More information:  https://github.com/MaybeSamigroup/SVS-SardineTail
+
 # SVS Custom Expansion v0.6.1
 - Short description: Custom maps for the game
 - Author(s):         DarkSoldier27
@@ -137,6 +157,11 @@
 - Short description: Press hotkey (LeftAlt+C by default) to make everyone naked for a period of time
 - Author(s):         PhillyStyle
 - More information:  https://github.com/PhillyStyle/SVS_EveryoneTakeOffYourClothes
+
+# SVS Steam Uncensored HardMod
+- Short description: Basic male and female uncensor, scrunchy
+- Author(s):         DarkSoldier27
+- More information:  Koikatsu discord server
 
 # SVS Uncensored HardMod Rev3
 - Short description: Basic male and female uncensor, scrunchy
@@ -168,12 +193,12 @@
 - Author(s):         ekibun
 - More information:  KK discord
 
-# SVS_SardineHead v1.0.5.0
+# SVS_SardineHead v1.0.0.0
 - Short description: Runtime texture and material modifier tool for character creator
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
 
-# SVS_SliderUnlock v3.0.2
+# SVS_SliderUnlock v3.0.3
 - Short description: Unlocks ranges of most character maker sliders
 - Author(s):         Samsung Galaxy Note 10+
 - More information:  IllGames Global Unofficial Discord Server
@@ -187,6 +212,11 @@
 - Short description: Workaround for some images not getting translated by AutoTranslator
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/SVS-Translation
+
+# TMPFontChanger v0.0.1
+- Short description: Fix for missing font glyph issue
+- Author(s):         y0soro
+- More information:  https://github.com/y0soro/ILL_Plugins
 
 # TraitUnlocker v1.0
 - Short description: Unlocks trait limit in maker
