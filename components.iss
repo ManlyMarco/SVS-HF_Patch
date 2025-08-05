@@ -1,14 +1,14 @@
 [Components]
 Name: "BepInEx";                               Description: "BepInEx-Unity.IL2CPP win-x64 v6.0.0.0 (Plugin framework)"                             ; Types: full_en full extra_en extra custom bare; Flags: fixed
 Name: "BepInEx\MessageCenter";                 Description: "Message Center v0.7 (Allows plugins to show messages in top left corner of the game)" ; Types: full_en full extra extra_en
-Name: "BepInEx\ConfigurationManager_Il2Cpp";   Description: "BepInEx.ConfigurationManager v18.4 (Can change plugin settings. Press F1 to open)"    ; Types: full_en full extra extra_en
-Name: "BepInEx\BepInEx_SplashScreen_BepInEx6"; Description: "BepInEx.SplashScreen_BepInEx6 v2.2.1.1 (A loading screen on game startup with information about patchers and plugins being currently loaded)"; Types: full_en full extra extra_en
+Name: "BepInEx\ConfigurationManager_Il2Cpp";   Description: "BepInEx.ConfigurationManager v18.4.1 (Can change plugin settings. Press F1 to open)"  ; Types: full_en full extra extra_en
+Name: "BepInEx\BepInEx_SplashScreen_BepInEx6"; Description: "BepInEx.SplashScreen_BepInEx6 v3.0.0.0 (A loading screen on game startup with information about patchers and plugins being currently loaded)"; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; Name: "IllusionLaunchers";                     Description: "IllusionLaunchers_HoneyCome v3.4.1.36297 (Custom game launcher)"                      ; Types: full_en full extra extra_en custom
-Name: "KKManager";                             Description: "KKManager v1.4.2.0 (Manage and update mods, browse cards)"                            ; Types: full_en full extra extra_en custom
+Name: "KKManager";                             Description: "KKManager v1.5.0.0 (Manage and update mods, browse cards)"                            ; Types: full_en full extra extra_en custom
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "API";                                   Description: "APIs (Plugins required by other plugins and mods to function)"                        ; Types: full_en full extra extra_en custom bare; Flags: fixed
-Name: "API\SVS_BepisPlugins";                  Description: "SVS_BepisPlugins v20.0 (Essential plugins required by many other plugins to function)"; Types: full_en full extra extra_en
+Name: "API\SVS_BepisPlugins";                  Description: "SVS_BepisPlugins v21.0 (Essential plugins required by many other plugins to function)"; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "AT";                                    Description: "XUnity Auto Translator v5.4.5 (Translation loader, automatic web translations)"       ; Types: full extra full_en extra_en custom
 Name: "AT\TL";                                 Description: "{cm:CompTL}"                                                                          ; Types: full_en extra_en
@@ -16,56 +16,60 @@ Name: "AT\TL\Subtitles";                       Description: "SVS_Subtitles v0.0.
 Name: "AT\TextureTrigger";                     Description: "Texture Trigger v0.2 (Workaround for some images not getting translated by AutoTranslator)"; Types: full_en extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "UNC";                                   Description: "{cm:CompUNC}"                                                                         ; Types: full_en full extra extra_en
-Name: "UNC\UncensorHardmod";                   Description: "SVS Uncensored HardMod Rev3 (Basic male and female uncensor, scrunchy)"               ; Types: full_en full extra extra_en
-Name: "UNC\UncensorHardmodSteam";              Description: "SVS Steam Uncensored HardMod (Basic male and female uncensor, scrunchy)"              ; Types: full_en full extra extra_en
+Name: "UNC\UncensorHardmod";                   Description: "SVS Uncensored HardMod (Basic male and female uncensor, scrunchy)"                    ; Types: full_en full extra extra_en
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "Content";                               Description: "Additional content (Needed to properly load most character cards and scenes)"         ; Types: full_en full extra extra_en
 #ifndef LITE
 Name: "Content\Hardmods";                      Description: "Hardmod pack 2025/05/06 (Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!)"
 Name: "Content\Hardmods\HardmodCards";         Description: "Character and outfit cards (A lot of extra cards that came included with the hardmods. Will fill up your character list!)"
 Name: "Content\MapPack";                       Description: "SVS Custom Expansion v0.6.1 (Custom maps for the game)"                               
+Name: "Content\SVS_ArtificialAcademyMapPack";  Description: "SVS_ArtificialAcademyMapPack v0.9.2 (Artificial Academy 1 maps for SVS with upscaled 2d backgrounds)"
+Name: "Content\3DPubicHairAccs";               Description: "3DPubicHairAccs (3D Pubic hair accessories)"                                          
 #endif 
 Name: "Content\SliderUnlock";                  Description: "SVS_SliderUnlock v3.0.3 (Unlocks ranges of most character maker sliders)"             ; Types: full_en full extra extra_en
 Name: "Content\SVS_TraitUnlocker";             Description: "TraitUnlocker v1.0 (Unlocks trait limit in maker)"                                    ; Types: full_en full extra extra_en
 Name: "Content\SardineHead";                   Description: "SVS_SardineHead v1.0.0.0 (Runtime texture and material modifier tool for character creator)"; Types: full_en full extra extra_en
-Name: "Content\PelvicFin";                     Description: "PelvicFin v1.0.1 (Allows modifying miscellaneous character statuses in character creation and H scenes)"; Types: full_en full extra extra_en
-Name: "Content\Fishbone";                      Description: "Fishbone v2.0.2 (Plugin api to serialize and deserialize character or coordinate bound extension data)"; Types: full_en full extra extra_en
-Name: "Content\Fishbone\SardineTail";          Description: "SardineTail v1.0.2.0 (Fundamental plugin to develop soft mods for SamabakeScramble)"; Types: full_en full extra extra_en   
-Name: "Content\PersonalityLoader";             Description: "PersonalityLoader v0.6 (Enables custom personalities to work in the game)"            
+Name: "Content\PelvicFin";                     Description: "PelvicFin v1.0.0.0 (Allows modifying miscellaneous character statuses in character creation and H scenes)"; Types: full_en full extra extra_en
+Name: "Content\Fishbone";                      Description: "Fishbone v1.0.5 (Plugin api to serialize and deserialize character or coordinate bound extension data)"; Types: full_en full extra extra_en
+Name: "Content\Fishbone\SardineTail";          Description: "SardineTail v1.0.3.0 (Fundamental plugin to develop soft mods for SamabakeScramble)"  ; Types: full_en full extra extra_en
+Name: "Content\VarietyOfScales";               Description: "SVS_VarietyOfScales v1.0.0.0 (Extends accessory slots)"                               ; Types: full_en full extra extra_en
+Name: "Content\PersonalityLoader";             Description: "PersonalityLoader v0.6.1 (Enables custom personalities to work in the game)"          
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "FIX";                                   Description: "{cm:CompFIX}"                                                                         ; Types: extra extra_en
-Name: "FIX\IllusionFixes";                     Description: "IllusionFixes_IL2CPP v22.0.2 (A collection of essential fixes and improvements)"      ; Types: full_en full extra extra_en custom bare
+Name: "FIX\IllusionFixes";                     Description: "IllusionFixes_IL2CPP v22.0.3 (A collection of essential fixes and improvements)"      ; Types: full_en full extra extra_en custom bare
 ; Name: "FIX\ByteFiddler";                       Description: "ByteFiddler v1.0 (Edit process memory at runtime, needed to fix game crashes)"        ; Types: full_en full extra extra_en custom bare
 Name: "FIX\WebRequestBlocker";                 Description: "Web Request Blocker v1.1.2 (Fixes the game requiring internet connection to start)"   ; Types: full_en full extra extra_en
 Name: "FIX\ProcessorAffinityOverride";         Description: "ProcessorAffinityOverride v1.0 (Overrides processor affinity, needed to fix game crashes on Ryzen 3xxx systems)"
 Name: "FIX\TMPFontChanger";                    Description: "TMPFontChanger v0.0.1 (Fix for missing font glyph issue)"                             
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "Feature";                               Description: "Improvements and additional features"                                                 
-Name: "Feature\ClothingStateMenu";             Description: "Clothing State Menu v5.1 (Can undress in chara maker and in H scenes)"                ; Types: full_en full extra_en extra
+Name: "Feature\ClothingStateMenu";             Description: "Clothing State Menu v5.2 (Can undress in chara maker and in H scenes)"                ; Types: full_en full extra_en extra
 Name: "Feature\EnableFullScreenToggle";        Description: "Enable Full Screen Toggle v0.7 (Allow toggling full screen with Alt+Enter)"           ; Types: full_en full extra extra_en
 Name: "Feature\MuteInBackground";              Description: "Mute In Background v0.7 (Mute the game when it's not in focus, configure in plugin settings)"; Types: full_en full extra extra_en
 Name: "Feature\SVS_PovX";                      Description: "SVS_PovX v0.0.2 (Adds first-person view in H scenes, check hotkeys in plugin settings)"; Types: full_en full extra extra_en
 Name: "Feature\JumpLister";                    Description: "JumpLister v1.1 (Adds useful options to the game's Jump List in taskbar right-click menu)"; Types: full_en full extra extra_en
 Name: "Feature\SVS_FavorabilityGainController"; Description: "FavorabilityGainController v1.3.1 (Allows changing point gain from interactions)"     ; Types: full_en full extra extra_en
+Name: "Feature\CharaSweat";                    Description: "SVS_CharaSweat v1.0 (Adds the sweat effect during H Scene)"                           ; Types: full_en full extra extra_en
 Name: "Feature\CharaFilter";                   Description: "CharaFilter v0.0.3 (Allows you to filter character/coordinate cards with personalities and folder categories)"; Types: full_en full extra extra_en
+Name: "Feature\PenetrationImprovement";        Description: "PenetrationImprovement (Improves the penetration animtaions)"                         ; Types: full_en full extra extra_en
 Name: "Feature\MapLoader";                     Description: "SVS_MapLoader v0.1.0 (Adds extra functionality for custom maps)"                      ; Types: full_en full extra extra_en
 Name: "Feature\HStartClothingState";           Description: "H Start Clothing State v1.0.0 (When you start H, clothing state will be applied according to configuration settings)"; Types: extra extra_en
 Name: "Feature\EveryoneTakeOffYourClothes";    Description: "SVS Everyone Take Off Your Clothes v1.0.0 (Press hotkey (LeftAlt+C by default) to make everyone naked for a period of time)"; Types: extra extra_en
 Name: "Feature\EnableResize";                  Description: "Enable Resize v0.7 (Enable resizing of game window)"                                  ; Types: extra extra_en
 Name: "Feature\FixationalEyeMovement";         Description: "FixationalEyeMovement v1.0.2 (Make character's eyes in H scenes move randomly)"       ; Types: extra extra_en
-Name: "Feature\CustomGameBalance";             Description: "CustomGameBalance v1.3.1 (Tries to balance some aspect of the game)"                  ; Types: extra extra_en
+Name: "Feature\CustomGameBalance";             Description: "CustomGameBalance v1.4 (Tries to balance some aspect of the game)"                    ; Types: extra extra_en
 Name: "Feature\PostHClothingStatePersistence"; Description: "Post H Clothing State Persistence v1.0.4 (After H, clothing state will persist until the end of period based on config)"
 Name: "Feature\GraphicsSettings";              Description: "Graphics Settings v0.7 (More graphics settings, access from plugin settings)"         
 Name: "Feature\SVS_Hair";                      Description: "SVS_Hair v0.0.2 (Make hair partially transparent over the eyes)"                      
 Name: "Feature\DisplayofThumbnails";           Description: "DisplayofThumbnails v0.1.0.2 (Enlarges some lists in character maker)"                
 Name: "Feature\LoveMachine";                   Description: "LoveMachine v3.19.101 (Adds support for some computer-controlled sex toys)"           
-Name: "Feature\FutanariSon";                   Description: "SVS_FutanariSon v0.0.4 (Can make everyone futanari, and disable futanari when in a female position)"
+Name: "Feature\FutanariSon";                   Description: "SVS_FutanariSon v0.0.4 (Can make everyone futanari, and disable futanari when in a female position (Can cause issues!))"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "MISC";                                  Description: "{cm:CompMISC}"                                                                        
-Name: "MISC\RuntimeUnityEditor_BepInEx6_IL2CPP"; Description: "Runtime Unity Editor v6.0 (Debugging tool for applications made with Unity3D game engine (IL2CPP runtime))"; Types: full_en full extra extra_en
+Name: "MISC\RuntimeUnityEditor_BepInEx6_IL2CPP"; Description: "Runtime Unity Editor v6.1 (Debugging tool for applications made with Unity3D game engine (IL2CPP runtime))"; Types: full_en full extra extra_en
 Name: "MISC\RuntimeUnityEditor\Trainer";       Description: "Cheat Tools v3.6 (Trainer, press F12 to open, it's in the bottom left corner)"        ; Types: full_en full extra extra_en
 ; Name: "MISC\FullSave";                         Description: "Full Save (Save file with everything unlocked in main game. Overwrites your current progress!)"
-Name: "MISC\Memes";                            Description: "Custom intro voices v31.0 (Bau to the brainrot)"                                      ; Types: extra extra_en
+Name: "MISC\Memes";                            Description: "Custom intro voices v32.0 (Parasocial for AI vtubers)"                                ; Types: extra extra_en
 
 [Files]
 Source: "Input\_Plugins\_out\BepInEx-Unity.IL2CPP-win-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: BepInEx; Excludes: "manifest.xml"
@@ -91,6 +95,8 @@ Source: "Input\_Plugins\_out\SVS_PostHClothingStatePersistence\*"; DestDir: "{ap
 Source: "Input\_Plugins\_out\SVS_FutanariSon\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\FutanariSon; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_MapLoader\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\MapLoader; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_CustomGameBalance\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\CustomGameBalance; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\PenetrationImprovement\*";     DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\PenetrationImprovement; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\SVS_CharaSweat\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\CharaSweat; Excludes: "manifest.xml"
 #ifndef LITE
 ; Source: "Input\_Plugins\_out\Hardmods\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods; Excludes: "manifest.xml"
 ; Source: "Input\_Plugins\_out\Hardmods_cards\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods\HardmodCards; Excludes: "manifest.xml"
@@ -106,8 +112,8 @@ Source: "Input\_Plugins\_out\KKManager\*";                  DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\Memes\*";                      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\Memes; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\RuntimeUnityEditor\*";         DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\RuntimeUnityEditor_BepInEx6_IL2CPP; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_CheatTools\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: MISC\RuntimeUnityEditor\Trainer; Excludes: "manifest.xml"
-Source: "Input\_Plugins\_out\Uncensor_Hardmod_Rev3\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\UncensorHardmod; Excludes: "manifest.xml"; Check: not IsSteam
-Source: "Input\_Plugins\_out\SteamUncensored_ HardMod\*";   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\UncensorHardmodSteam; Excludes: "manifest.xml"; Check: IsSteam
+Source: "Input\_Plugins\_out\UncensorHardmod\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\UncensorHardmod; Excludes: "manifest.xml"; Check: not IsSteam
+Source: "Input\_Plugins\_out\UncensorHardmodSteam\*";       DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: UNC\UncensorHardmod; Excludes: "manifest.xml"; Check: IsSteam
 Source: "Input\_Plugins\_out\XUnity.AutoTranslator\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_Subtitles\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT\TL\Subtitles; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_SliderUnlock\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\SliderUnlock; Excludes: "manifest.xml"
@@ -118,5 +124,8 @@ Source: "Input\_Plugins\_out\SVS_TraitUnlocker\*";          DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\SVS_Fishbone\*";               DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Fishbone; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_SardineHead\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\SardineHead; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_PersonalityLoader\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\PersonalityLoader; Excludes: "manifest.xml"
-Source: "Input\_Plugins\_out\SVS_SardineTail\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Fishbone\SardineTail; Excludes: "manifest.xml";
+Source: "Input\_Plugins\_out\SVS_SardineTail\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Fishbone\SardineTail; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_PelvicFin\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\PelvicFin; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\SVS_VarietyOfScales\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\VarietyOfScales; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\3DPubicHairAccs\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\3DPubicHairAccs; Excludes: "manifest.xml"
+Source: "Input\_Plugins\_out\SVS Artificial Academy Map Pack\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\SVS_ArtificialAcademyMapPack; Excludes: "manifest.xml"

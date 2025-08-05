@@ -1,9 +1,14 @@
-# BepInEx.ConfigurationManager v18.4
+# 3DPubicHairAccs
+- Short description: 3D Pubic hair accessories
+- Author(s):         shinobiixtunu
+- More information:  https://ux.getuploader.com/onin_samasukumod/
+
+# BepInEx.ConfigurationManager v18.4.1
 - Short description: Can change plugin settings. Press F1 to open
 - Author(s):         BepInEx (anonymous IL2CPP port)
 - More information:  https://github.com/BepInEx/BepInEx.ConfigurationManager
 
-# BepInEx.SplashScreen_BepInEx6 v2.2.1.1
+# BepInEx.SplashScreen_BepInEx6 v3.0.0.0
 - Short description: A loading screen on game startup with information about patchers and plugins being currently loaded
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.SplashScreen
@@ -28,17 +33,17 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/IllusionCheatTools
 
-# Clothing State Menu v5.1
+# Clothing State Menu v5.2
 - Short description: Can undress in chara maker and in H scenes
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
 
-# Custom intro voices v31.0
-- Short description: Bau to the brainrot
+# Custom intro voices v32.0
+- Short description: Parasocial for AI vtubers
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
 
-# CustomGameBalance v1.3.1
+# CustomGameBalance v1.4
 - Short description: Tries to balance some aspect of the game
 - Author(s):         DarkSoldier27
 - More information:  Discord
@@ -63,7 +68,7 @@
 - Author(s):         DarkSoldier27
 - More information:  Discord
 
-# Fishbone v2.0.2
+# Fishbone v1.0.5
 - Short description: Plugin api to serialize and deserialize character or coordinate bound extension data
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-Fishbone
@@ -88,7 +93,7 @@
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
 
-# IllusionFixes_IL2CPP v22.0.2
+# IllusionFixes_IL2CPP v22.0.3
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionFixes
@@ -98,7 +103,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
 
-# KKManager v1.4.2.0
+# KKManager v1.5.0.0
 - Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -118,12 +123,17 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# PelvicFin v1.0.1
+# PelvicFin v1.0.0.0
 - Short description: Allows modifying miscellaneous character statuses in character creation and H scenes
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-PelvicFin
 
-# PersonalityLoader v0.6
+# PenetrationImprovement
+- Short description: Improves the penetration animtaions
+- Author(s):         Amalev
+- More information:  Discord
+
+# PersonalityLoader v0.6.1
 - Short description: Enables custom personalities to work in the game
 - Author(s):         DarkSoldier27
 - More information:  Discord
@@ -138,7 +148,7 @@
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# Runtime Unity Editor v6.0
+# Runtime Unity Editor v6.1
 - Short description: Debugging tool for applications made with Unity3D game engine (IL2CPP runtime)
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
@@ -158,23 +168,33 @@
 - Author(s):         PhillyStyle
 - More information:  https://github.com/PhillyStyle/SVS_EveryoneTakeOffYourClothes
 
-# SVS Steam Uncensored HardMod
+# SVS Uncensored HardMod
 - Short description: Basic male and female uncensor, scrunchy
 - Author(s):         DarkSoldier27
 - More information:  Koikatsu discord server
 
-# SVS Uncensored HardMod Rev3
+# SVS Uncensored HardMod
 - Short description: Basic male and female uncensor, scrunchy
 - Author(s):         DarkSoldier27
 - More information:  Koikatsu discord server
 
-# SVS_BepisPlugins v20.0
+# SVS_ArtificialAcademyMapPack v0.9.2
+- Short description: Artificial Academy 1 maps for SVS with upscaled 2d backgrounds
+- Author(s):         DarkSoldier27
+- More information:  Discord
+
+# SVS_BepisPlugins v21.0
 - Short description: Essential plugins required by many other plugins to function
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
 
+# SVS_CharaSweat v1.0
+- Short description: Adds the sweat effect during H Scene
+- Author(s):         DarkSoldier27
+- More information:  Discord
+
 # SVS_FutanariSon v0.0.4
-- Short description: Can make everyone futanari, and disable futanari when in a female position
+- Short description: Can make everyone futanari, and disable futanari when in a female position (Can cause issues!)
 - Author(s):         ekibun
 - More information:  Koikatsu Discord server
 
@@ -207,6 +227,11 @@
 - Short description: Adds subtitles to H Scenes. Japanese subtitles are also available. Very bad quality
 - Author(s):         ekibun and others
 - More information:  https://github.com/IllusionMods/SVS-Translation
+
+# SVS_VarietyOfScales v1.0.0.0
+- Short description: Extends accessory slots
+- Author(s):         MaybeSamigroup
+- More information:  https://github.com/MaybeSamigroup/SVS-VarietyOfScales
 
 # Texture Trigger v0.2
 - Short description: Workaround for some images not getting translated by AutoTranslator
