@@ -3,6 +3,11 @@
 - Author(s):         shinobiixtunu
 - More information:  https://ux.getuploader.com/onin_samasukumod/
 
+# A pack of sardines
+- Short description: Modpack with various new items for use in maker
+- Author(s):         Various, Tekito
+- More information:  Koikatsu Discord server
+
 # BepInEx.ConfigurationManager v18.4.1
 - Short description: Can change plugin settings. Press F1 to open
 - Author(s):         BepInEx (anonymous IL2CPP port)
@@ -13,7 +18,7 @@
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.SplashScreen
 
-# BepInEx-Unity.IL2CPP win-x64 v6.0.0.0
+# BepInEx-Unity.IL2CPP win-x64 v6.0.0-dev
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
@@ -38,12 +43,12 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
 
-# Custom intro voices v32.0
-- Short description: Parasocial for AI vtubers
+# Custom intro voices v33.0
+- Short description: Being a gooner is my job
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
 
-# CustomGameBalance v1.4
+# CustomGameBalance v1.6.1
 - Short description: Tries to balance some aspect of the game
 - Author(s):         DarkSoldier27
 - More information:  Discord
@@ -68,7 +73,7 @@
 - Author(s):         DarkSoldier27
 - More information:  Discord
 
-# Fishbone v1.0.5
+# Fishbone v3.1.5
 - Short description: Plugin api to serialize and deserialize character or coordinate bound extension data
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-Fishbone
@@ -77,6 +82,11 @@
 - Short description: Make character's eyes in H scenes move randomly
 - Author(s):         Sabakan
 - More information:  Koikatsu Discord Server
+
+# FPS Counter v3.3.1
+- Short description: Useful for performance testing
+- Author(s):         https://github.com/ManlyMarco
+- More information:  https://github.com/ManlyMarco/FPSCounter
 
 # Graphics Settings v0.7
 - Short description: More graphics settings, access from plugin settings
@@ -93,7 +103,7 @@
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
 
-# IllusionFixes_IL2CPP v22.0.3
+# IllusionFixes_IL2CPP v22.1
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionFixes
@@ -103,7 +113,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
 
-# KKManager v1.5.0.0
+# KKManager v1.7.0.0
 - Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -123,7 +133,7 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# PelvicFin v1.0.0.0
+# PelvicFin v1.1.5
 - Short description: Allows modifying miscellaneous character statuses in character creation and H scenes
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-PelvicFin
@@ -133,7 +143,7 @@
 - Author(s):         Amalev
 - More information:  Discord
 
-# PersonalityLoader v0.6.1
+# PersonalityLoader v0.6.2
 - Short description: Enables custom personalities to work in the game
 - Author(s):         DarkSoldier27
 - More information:  Discord
@@ -148,17 +158,17 @@
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.Utility.IL2CPP
 
-# Runtime Unity Editor v6.1
+# Runtime Unity Editor v6.3
 - Short description: Debugging tool for applications made with Unity3D game engine (IL2CPP runtime)
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
-# SardineTail v1.0.3.0
+# SardineTail v2.1.12
 - Short description: Fundamental plugin to develop soft mods for SamabakeScramble
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineTail
 
-# SVS Custom Expansion v0.6.1
+# SVS Custom Expansion v0.6.2
 - Short description: Custom maps for the game
 - Author(s):         DarkSoldier27
 - More information:  Koikatsu discord server
@@ -178,12 +188,12 @@
 - Author(s):         DarkSoldier27
 - More information:  Koikatsu discord server
 
-# SVS_ArtificialAcademyMapPack v0.9.2
+# SVS_ArtificialAcademyMapPack v0.9.3
 - Short description: Artificial Academy 1 maps for SVS with upscaled 2d backgrounds
 - Author(s):         DarkSoldier27
 - More information:  Discord
 
-# SVS_BepisPlugins v21.0
+# SVS_BepisPlugins v21.1.2
 - Short description: Essential plugins required by many other plugins to function
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
@@ -192,6 +202,11 @@
 - Short description: Adds the sweat effect during H Scene
 - Author(s):         DarkSoldier27
 - More information:  Discord
+
+# SVS_CustomFortune v1.0.0
+- Short description: Adds new fortunes into the game
+- Author(s):         DarkSoldier27
+- More information:  KKDiscord
 
 # SVS_FutanariSon v0.0.4
 - Short description: Can make everyone futanari, and disable futanari when in a female position (Can cause issues!)
@@ -203,17 +218,27 @@
 - Author(s):         ekibun
 - More information:  Koikatsu Discord Server
 
-# SVS_MapLoader v0.1.0
+# SVS_HSceneAddOns v1.2.0
+- Short description: Adds new functionalities to the HScene
+- Author(s):         Amalev
+- More information:  KKDiscord
+
+# SVS_MapLoader v0.5.5
 - Short description: Adds extra functionality for custom maps
 - Author(s):         DarkSoldier27
 - More information:  Discord
+
+# SVS_MoreOutfits v1.1
+- Short description: Adds 4 new outfits slots with custom conditions for NPCs
+- Author(s):         DarkSoldier27
+- More information:  KKDiscord
 
 # SVS_PovX v0.0.2
 - Short description: Adds first-person view in H scenes, check hotkeys in plugin settings
 - Author(s):         ekibun
 - More information:  KK discord
 
-# SVS_SardineHead v1.0.0.0
+# SVS_SardineHead v2.1.1
 - Short description: Runtime texture and material modifier tool for character creator
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
@@ -223,12 +248,12 @@
 - Author(s):         Samsung Galaxy Note 10+
 - More information:  IllGames Global Unofficial Discord Server
 
-# SVS_Subtitles v0.0.2.0
+# SVS_Subtitles v0.0.2
 - Short description: Adds subtitles to H Scenes. Japanese subtitles are also available. Very bad quality
 - Author(s):         ekibun and others
 - More information:  https://github.com/IllusionMods/SVS-Translation
 
-# SVS_VarietyOfScales v1.0.0.0
+# SVS_VarietyOfScales v0.2.2
 - Short description: Extends accessory slots
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-VarietyOfScales
@@ -253,7 +278,7 @@
 - Author(s):         Unknown
 - More information:  Koikatsu Discord Server
 
-# XUnity Auto Translator v5.4.5
+# XUnity Auto Translator v5.5
 - Short description: Translation loader, automatic web translations
 - Author(s):         https://github.com/bbepis
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator

@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer Vacation! Scramble"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.9"
+#define VERSION "1.10"
 ;--Don't include any files in the build to make it go fast for testing
 ;#define DEBUG
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
@@ -37,6 +37,7 @@ LZMADictionarySize=262144
 LZMANumFastBytes=273
 LZMANumBlockThreads=8
 DiskSpanning=yes
+DiskSliceSize=4294967295
 DefaultDirName={code:GetDefaultDirName}
 
 WindowResizable=yes
@@ -133,7 +134,15 @@ Type: files; Name: "{app}\abdata\map\list\040_00.unity3d";                      
 Type: files; Name: "{app}\abdata\map\scene\000_40\40.unity3d";                        Components: Content\MapPack
 Type: files; Name: "{app}\abdata\map\ui\040_00.unity3d";                        Components: Content\MapPack
 Type: files; Name: "{app}\abdata\map\list\200_56.unity3d";                        Components: Content\MapPack
+Type: filesandordirs; Name: "{app}\abdata\map\collison\svsce_mp";                        Components: Content\MapPack
+Type: filesandordirs; Name: "{app}\abdata\map\lightmapsettings\svsce_mp";                        Components: Content\MapPack
+Type: filesandordirs; Name: "{app}\abdata\map\scene\svsce_mp";                        Components: Content\MapPack
+Type: filesandordirs; Name: "{app}\abdata\map\ui\svsce_mp";                        Components: Content\MapPack
+Type: filesandordirs; Name: "{app}\abdata\map\CustomMap";                        Components: Content\SVS_ArtificialAcademyMapPack
+Type: files; Name: "{app}\abdata\adv\list\lit\100_00.unity3d";                        Components: Content\SVS_ArtificialAcademyMapPack
+Type: files; Name: "{app}\abdata\map\list\100_00_AA1.unity3d";                        Components: Content\SVS_ArtificialAcademyMapPack
 
+Type: files; Name: "{app}\BepInEx\config\SVS_HSceneAddOn.cfg";                        Components: Feature\HSceneAddons
 
 ; Clean up old patches and packs
 Type: files; Name: "{app}\start.bat"
