@@ -1,7 +1,7 @@
-# 3DPubicHairAccs
-- Short description: 3D Pubic hair accessories
-- Author(s):         shinobiixtunu
-- More information:  https://ux.getuploader.com/onin_samasukumod/
+# 3DRooms v1.1.0
+- Short description: Moves the camera and perspective during HScenes so it takes place in the 3D maps
+- Author(s):         TonWonton
+- More information:  https://github.com/TonWonton/SVS_3DRooms
 
 # A pack of sardines
 - Short description: Modpack with various new items for use in maker
@@ -18,10 +18,15 @@
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.SplashScreen
 
-# BepInEx-Unity.IL2CPP win-x64 v6.0.0-dev
+# BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.752
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
+
+# CCPoseLoader v2.2.0
+- Short description: Allow loading additional poses in chara maker
+- Author(s):         MaybeSamigroup
+- More information:  https://github.com/MaybeSamigroup/SVS-CCPoseLoader
 
 # Character and outfit cards
 - Short description: A lot of extra cards that came included with the hardmods. Will fill up your character list!
@@ -43,8 +48,8 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
 
-# Custom intro voices v33.0
-- Short description: Being a gooner is my job
+# Custom intro voices v34.0
+- Short description: Gitgoon
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
 
@@ -57,6 +62,11 @@
 - Short description: Enlarges some lists in character maker
 - Author(s):         Sabakan
 - More information:  Koikatsu Discord Server
+
+# DorsalFin v1.1.0
+- Short description: Additional color modifier UI for chara maker (default CTRL+D)
+- Author(s):         MaybeSamigroup
+- More information:  https://github.com/MaybeSamigroup/SVS-DorsalFin
 
 # Enable Full Screen Toggle v0.7
 - Short description: Allow toggling full screen with Alt+Enter
@@ -73,7 +83,7 @@
 - Author(s):         DarkSoldier27
 - More information:  Discord
 
-# Fishbone v3.1.5
+# Fishbone v4.0.0
 - Short description: Plugin api to serialize and deserialize character or coordinate bound extension data
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-Fishbone
@@ -92,6 +102,11 @@
 - Short description: More graphics settings, access from plugin settings
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
+
+# H Animation Improvements v1.0.0
+- Short description: Improves aspects of the H-Animations
+- Author(s):         Amalev
+- More information:  KK Discord
 
 # H Start Clothing State v1.0.0
 - Short description: When you start H, clothing state will be applied according to configuration settings
@@ -133,13 +148,13 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# PelvicFin v1.1.5
+# PelvicFin v1.2.0
 - Short description: Allows modifying miscellaneous character statuses in character creation and H scenes
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-PelvicFin
 
-# PenetrationImprovement
-- Short description: Improves the penetration animtaions
+# PenetrationImprovement v2.0.0
+- Short description: Improves the penetration animations
 - Author(s):         Amalev
 - More information:  Discord
 
@@ -163,7 +178,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
-# SardineTail v2.1.12
+# SardineTail v2.2.0
 - Short description: Fundamental plugin to develop soft mods for SamabakeScramble
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineTail
@@ -188,12 +203,17 @@
 - Author(s):         DarkSoldier27
 - More information:  Koikatsu discord server
 
+# SVS_Ahegao v1.0.0
+- Short description: Allows setting different faces for different states
+- Author(s):         TonWonton
+- More information:  https://github.com/TonWonton/SVS_Ahegao
+
 # SVS_ArtificialAcademyMapPack v0.9.3
 - Short description: Artificial Academy 1 maps for SVS with upscaled 2d backgrounds
 - Author(s):         DarkSoldier27
 - More information:  Discord
 
-# SVS_BepisPlugins v21.1.2
+# SVS_BepisPlugins v21.1.2.1
 - Short description: Essential plugins required by many other plugins to function
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
@@ -218,7 +238,7 @@
 - Author(s):         ekibun
 - More information:  Koikatsu Discord Server
 
-# SVS_HSceneAddOns v1.2.0
+# SVS_HSceneAddOns v1.2.1
 - Short description: Adds new functionalities to the HScene
 - Author(s):         Amalev
 - More information:  KKDiscord
@@ -238,12 +258,12 @@
 - Author(s):         ekibun
 - More information:  KK discord
 
-# SVS_SardineHead v2.1.1
+# SVS_SardineHead v2.2.0
 - Short description: Runtime texture and material modifier tool for character creator
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
 
-# SVS_SliderUnlock v3.0.3
+# SVS_SliderUnlock v99.9.9
 - Short description: Unlocks ranges of most character maker sliders
 - Author(s):         Samsung Galaxy Note 10+
 - More information:  IllGames Global Unofficial Discord Server
@@ -253,7 +273,7 @@
 - Author(s):         ekibun and others
 - More information:  https://github.com/IllusionMods/SVS-Translation
 
-# SVS_VarietyOfScales v0.2.2
+# SVS_VarietyOfScales v0.8.0
 - Short description: Extends accessory slots
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-VarietyOfScales

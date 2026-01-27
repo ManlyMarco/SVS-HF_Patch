@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer Vacation! Scramble"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.10"
+#define VERSION "1.11"
 ;--Don't include any files in the build to make it go fast for testing
 ;#define DEBUG
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
@@ -72,9 +72,9 @@ Source: "HelperLib.dll";                  DestDir: "{app}";                     
 Source: "Plugin Readme.md";               DestDir: "{app}"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Source: "Input\_Patch\1_base\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch; Check: not IsSteam
-Source: "Input\_Patch\2_0509-full\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: not IsSteam
+Source: "Input\_Patch\2_1009-full\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: not IsSteam
 Source: "Input\_Patch\8_man\*";                    DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: not IsSteam
-Source: "Input\_Patch\9_unhollowed-0509\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: not IsSteam
+Source: "Input\_Patch\9_unhollowed-1009\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: not IsSteam
 
 Source: "Input\_Patch\st_1_base\*";                DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: Patch; Check: IsSteam
 Source: "Input\_Patch\st_2_extra\*";               DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs;            Components: Patch; Check: IsSteam
@@ -129,18 +129,22 @@ Type: files; Name: "{app}\BepInEx\patchers\IMGUIModule.Il2Cpp.CoreCLR.Patcher.dl
 Type: files; Name: "{app}\BepInEx\plugins\ConfigurationManager.dll";                Components: BepInEx\ConfigurationManager_Il2Cpp
 Type: files; Name: "{app}\BepInEx\plugins\BepInEx.KeyboardShortcut.dll";            Components: BepInEx\ConfigurationManager_Il2Cpp
 Type: filesandordirs; Name: "{app}\abdata\chara\TekitoMOD";                        Components: Content\Hardmods
-Type: files; Name: "{app}\abdata\adv\list\lit\000_40.unity3d";                        Components: Content\MapPack
-Type: files; Name: "{app}\abdata\map\list\040_00.unity3d";                        Components: Content\MapPack
-Type: files; Name: "{app}\abdata\map\scene\000_40\40.unity3d";                        Components: Content\MapPack
-Type: files; Name: "{app}\abdata\map\ui\040_00.unity3d";                        Components: Content\MapPack
-Type: files; Name: "{app}\abdata\map\list\200_56.unity3d";                        Components: Content\MapPack
-Type: filesandordirs; Name: "{app}\abdata\map\collison\svsce_mp";                        Components: Content\MapPack
-Type: filesandordirs; Name: "{app}\abdata\map\lightmapsettings\svsce_mp";                        Components: Content\MapPack
-Type: filesandordirs; Name: "{app}\abdata\map\scene\svsce_mp";                        Components: Content\MapPack
-Type: filesandordirs; Name: "{app}\abdata\map\ui\svsce_mp";                        Components: Content\MapPack
-Type: filesandordirs; Name: "{app}\abdata\map\CustomMap";                        Components: Content\SVS_ArtificialAcademyMapPack
-Type: files; Name: "{app}\abdata\adv\list\lit\100_00.unity3d";                        Components: Content\SVS_ArtificialAcademyMapPack
-Type: files; Name: "{app}\abdata\map\list\100_00_AA1.unity3d";                        Components: Content\SVS_ArtificialAcademyMapPack
+Type: files; Name: "{app}\abdata\adv\list\lit\000_40.unity3d";                        Components: Maps
+Type: files; Name: "{app}\abdata\map\list\040_00.unity3d";                        Components: Maps
+Type: files; Name: "{app}\abdata\map\scene\000_40\40.unity3d";                        Components: Maps
+Type: files; Name: "{app}\abdata\map\ui\040_00.unity3d";                        Components: Maps
+Type: files; Name: "{app}\abdata\map\list\200_56.unity3d";                        Components: Maps
+Type: filesandordirs; Name: "{app}\abdata\map\collison\svsce_mp";                        Components: Maps
+Type: filesandordirs; Name: "{app}\abdata\map\lightmapsettings\svsce_mp";                        Components: Maps
+Type: filesandordirs; Name: "{app}\abdata\map\scene\svsce_mp";                        Components: Maps
+Type: filesandordirs; Name: "{app}\abdata\map\ui\svsce_mp";                        Components: Maps
+Type: filesandordirs; Name: "{app}\abdata\map\CustomMap";                        Components: Maps
+Type: files; Name: "{app}\abdata\adv\list\lit\100_00.unity3d";                        Components: Maps
+Type: files; Name: "{app}\abdata\map\list\100_00_AA1.unity3d";                        Components: Maps
+Type: files; Name: "{app}\abdata\adv\list\lit\100_00_AA1.unity3d";                        Components: Maps
+Type: files; Name: "{app}\abdata\adv\list\lit\200_56_CE.unity3d";                        Components: Maps
+Type: filesandordirs; Name: "{app}\abdata\mods\CustomMaps";                        Components: Maps
+Type: filesandordirs; Name: "{app}\abdata\sound\data\bgm\custom";                        Components: Maps
 
 Type: files; Name: "{app}\BepInEx\config\SVS_HSceneAddOn.cfg";                        Components: Feature\HSceneAddons
 
