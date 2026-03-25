@@ -40,7 +40,6 @@ Name: "Maps\SVS_ArtificialAcademyMapPack";     Description: "SVS_ArtificialAcade
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "FIX";                                   Description: "{cm:CompFIX}"                                                                         ; Types: extra extra_en
 Name: "FIX\IllusionFixes";                     Description: "IllusionFixes_IL2CPP v22.1 (A collection of essential fixes and improvements)"        ; Types: full_en full extra extra_en custom bare
-; Name: "FIX\ByteFiddler";                       Description: "ByteFiddler v1.0 (Edit process memory at runtime, needed to fix game crashes)"        ; Types: full_en full extra extra_en custom bare
 Name: "FIX\WebRequestBlocker";                 Description: "Web Request Blocker v1.1.2 (Fixes the game requiring internet connection to start)"   ; Types: full_en full extra extra_en
 Name: "FIX\ProcessorAffinityOverride";         Description: "ProcessorAffinityOverride v1.0 (Overrides processor affinity, needed to fix game crashes on Ryzen 3xxx systems)"
 Name: "FIX\TMPFontChanger";                    Description: "TMPFontChanger v0.0.1 (Fix for missing font glyph issue)"                             
@@ -76,6 +75,7 @@ Name: "Feature\LoveMachine";                   Description: "LoveMachine v3.19.1
 Name: "Feature\FutanariSon";                   Description: "SVS_FutanariSon v0.0.4 (Can make everyone futanari, and disable futanari when in a female position (Can cause issues!))"
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Name: "MISC";                                  Description: "{cm:CompMISC}"                                                                        
+Name: "MISC\FIX";                              Description: "Fix game registry (fixes DigitalCraft not detecting SVS)"                             ; Types: full_en full extra extra_en
 Name: "MISC\FPS";                              Description: "FPS Counter v3.3.1 (Useful for performance testing)"                                  ; Types: full_en full extra extra_en
 Name: "MISC\RuntimeUnityEditor_BepInEx6_IL2CPP"; Description: "Runtime Unity Editor v6.3 (Debugging tool for applications made with Unity3D game engine (IL2CPP runtime))"; Types: full_en full extra extra_en
 Name: "MISC\RuntimeUnityEditor\Trainer";       Description: "Cheat Tools v3.6 (Trainer, press F12 to open, it's in the bottom left corner)"        ; Types: full_en full extra extra_en
@@ -83,6 +83,7 @@ Name: "MISC\RuntimeUnityEditor\Trainer";       Description: "Cheat Tools v3.6 (T
 Name: "MISC\Memes";                            Description: "Custom intro voices v34.0 (Gitgoon)"                                                  ; Types: extra extra_en
 
 [Files]
+#ifndef DEBUG
 Source: "Input\_Plugins\_out\BepInEx-Unity.IL2CPP-win-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs solidbreak; Components: BepInEx; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\BepInEx.ConfigurationManager\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: BepInEx\ConfigurationManager_Il2Cpp; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\MessageCenter\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: BepInEx\MessageCenter; Excludes: "manifest.xml"
@@ -115,14 +116,9 @@ Source: "Input\_Plugins\_out\SVS_Ahegao\*";                 DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\SVS_CCPoseLoader\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\CCPoseLoader; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_DorsalFin\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\DorsalFin; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_HAnimationImprov\*";       DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Feature\HAnimationImprov; Excludes: "manifest.xml"
-#ifndef LITE
-; Source: "Input\_Plugins\_out\Hardmods\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods; Excludes: "manifest.xml"
-; Source: "Input\_Plugins\_out\Hardmods_cards\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods\HardmodCards; Excludes: "manifest.xml"
-#endif 
 Source: "Input\_Plugins\_out\SVS_BepisPlugins\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: API\SVS_BepisPlugins; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\TextureTrigger\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT\TextureTrigger; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\IllusionFixes\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\IllusionFixes; Excludes: "manifest.xml"
-; Source: "Input\_Plugins\_out\Patcher_ByteFiddler\*";        DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\ByteFiddler; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Patcher_ProcessorAffinityOverride\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\ProcessorAffinityOverride; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\WebRequestBlocker\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\WebRequestBlocker; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_TMPFontChanger\*";         DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: FIX\TMPFontChanger; Excludes: "manifest.xml"
@@ -136,8 +132,10 @@ Source: "Input\_Plugins\_out\UncensorHardmodSteam\*";       DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\XUnity.AutoTranslator\*";      DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_Subtitles\*";              DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: AT\TL\Subtitles; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_SliderUnlocker\*";         DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\SliderUnlock; Excludes: "manifest.xml"
+#ifndef LITE
 Source: "Input\_Plugins\_out\Hardmods\*";                   DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Hardmods_cards\*";             DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Hardmods\HardmodCards; Excludes: "manifest.xml"
+#endif 
 Source: "Input\_Plugins\_out\SVS_TraitUnlocker\*";          DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\SVS_TraitUnlocker; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_Fishbone\*";               DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Fishbone; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_SardineHead\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\SardineHead; Excludes: "manifest.xml"
@@ -149,3 +147,7 @@ Source: "Input\_Plugins\_out\SVS_CustomExpansion\*";        DestDir: "{app}"; Fl
 Source: "Input\_Plugins\_out\SVS Artificial Academy Map Pack\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Maps\SVS_ArtificialAcademyMapPack; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\Sardines_modpack\*";           DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\Fishbone\SardineTail\Sardines_modpack; Excludes: "manifest.xml"
 Source: "Input\_Plugins\_out\SVS_MoreOutfits\*";            DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: Content\MoreOutfits; Excludes: "manifest.xml"
+
+[Code]
+// Need to put this behind an empty Code category so that the automatic tool doesn't add new file items below this #endif
+#endif
