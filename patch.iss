@@ -241,6 +241,5 @@ end;
 
 procedure OnInstallCompleted(); // Final installation step, use to modify files installed by the patch
 begin
-    DeleteFile(ExpandConstant('{app}\changelog.txt'));
     DeleteFile(ExpandConstant('{app}\winhttp.dll'));
 end;
