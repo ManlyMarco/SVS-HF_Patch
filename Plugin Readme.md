@@ -1,4 +1,4 @@
-# 3DRooms v1.1.0
+# 3DRooms v1.1.3
 - Short description: Moves the camera and perspective during HScenes so it takes place in the 3D maps
 - Author(s):         TonWonton
 - More information:  https://github.com/TonWonton/SVS_3DRooms
@@ -7,6 +7,11 @@
 - Short description: Modpack with various new items for use in maker
 - Author(s):         Various, Tekito
 - More information:  Koikatsu Discord server
+
+# BeautifySettings v1.0.0
+- Short description: Allows changing different Beautify post-processing settings
+- Author(s):         TonWonton
+- More information:  https://github.com/TonWonton/ILL_BeautifySettings
 
 # BepInEx.ConfigurationManager v18.4.1
 - Short description: Can change plugin settings. Press F1 to open
@@ -33,12 +38,12 @@
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
 
-# CharaFilter v0.0.3
+# CharaFilter v0.0.8
 - Short description: Allows you to filter character/coordinate cards with personalities and folder categories
 - Author(s):         y0soro
 - More information:  https://github.com/y0soro/ILL_Plugins
 
-# Cheat Tools v3.6
+# Cheat Tools v3.6.1
 - Short description: Trainer, press F12 to open, it's in the bottom left corner
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/IllusionCheatTools
@@ -103,7 +108,7 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# H Animation Improvements v1.0.0
+# H Animation Improvements v2.1.0
 - Short description: Improves aspects of the H-Animations
 - Author(s):         Amalev
 - More information:  KK Discord
@@ -118,6 +123,16 @@
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
 
+# HSceneAnimationSpeed v1.0.0
+- Short description: Allows setting a custom animation speed during H
+- Author(s):         TonWonton
+- More information:  https://github.com/TonWonton/ILL_HSceneAnimationSpeed
+
+# HSceneBreastJiggle v1.0.2
+- Short description: Allows setting custom values for breast softness and weight during H
+- Author(s):         TonWonton
+- More information:  https://github.com/TonWonton/ILL_HSceneBreastJiggle
+
 # IllusionFixes_IL2CPP v22.1
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
@@ -128,7 +143,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
 
-# KKManager v1.7.0.0
+# KKManager v1.8.0.0
 - Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -137,6 +152,11 @@
 - Short description: Adds support for some computer-controlled sex toys
 - Author(s):         Sauceke
 - More information:  https://github.com/Sauceke/LoveMachine
+
+# Map Expansion v1.0.0
+- Short description: Custom maps for the game
+- Author(s):         DarkSoldier27
+- More information:  Koikatsu discord server
 
 # Message Center v0.7
 - Short description: Allows plugins to show messages in top left corner of the game
@@ -183,11 +203,6 @@
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineTail
 
-# SVS Custom Expansion v0.6.2
-- Short description: Custom maps for the game
-- Author(s):         DarkSoldier27
-- More information:  Koikatsu discord server
-
 # SVS Everyone Take Off Your Clothes v1.0.0
 - Short description: Press hotkey (LeftAlt+C by default) to make everyone naked for a period of time
 - Author(s):         PhillyStyle
@@ -203,15 +218,10 @@
 - Author(s):         DarkSoldier27
 - More information:  Koikatsu discord server
 
-# SVS_Ahegao v1.0.0
+# SVS_Ahegao v1.1.0
 - Short description: Allows setting different faces for different states
 - Author(s):         TonWonton
 - More information:  https://github.com/TonWonton/SVS_Ahegao
-
-# SVS_ArtificialAcademyMapPack v0.9.3
-- Short description: Artificial Academy 1 maps for SVS with upscaled 2d backgrounds
-- Author(s):         DarkSoldier27
-- More information:  Discord
 
 # SVS_BepisPlugins v21.1.2.1
 - Short description: Essential plugins required by many other plugins to function
@@ -243,7 +253,7 @@
 - Author(s):         Amalev
 - More information:  KKDiscord
 
-# SVS_MapLoader v0.5.5
+# SVS_MapLoader v0.9.1
 - Short description: Adds extra functionality for custom maps
 - Author(s):         DarkSoldier27
 - More information:  Discord
@@ -265,8 +275,8 @@
 
 # SVS_SliderUnlock v99.9.9
 - Short description: Unlocks ranges of most character maker sliders
-- Author(s):         Samsung Galaxy Note 10+
-- More information:  IllGames Global Unofficial Discord Server
+- Author(s):         y0soro
+- More information:  https://github.com/y0soro/ILL_Pluginsr
 
 # SVS_Subtitles v0.0.2
 - Short description: Adds subtitles to H Scenes. Japanese subtitles are also available. Very bad quality
@@ -298,7 +308,7 @@
 - Author(s):         Unknown
 - More information:  Koikatsu Discord Server
 
-# XUnity Auto Translator v5.5
+# XUnity Auto Translator v5.5.1
 - Short description: Translation loader, automatic web translations
 - Author(s):         https://github.com/bbepis
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator

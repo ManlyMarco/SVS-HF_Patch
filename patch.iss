@@ -7,15 +7,15 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer Vacation! Scramble"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.11"
+#define VERSION "1.12"
 ;-----------------------------------------Sideloader modpack directory
 ;#define GameDir N/A
 ;--Don't include any files in the build to make it go fast for testing
-#define DEBUG
+;#define DEBUG
 ;---Skip file verification for easier testing, COMMENT OUT FOR RELEASE
 ;#define NOVERIFY
 ;------------Don't include general, studio and map sideloader modpacks
-#define LITE
+;#define LITE
 ;--------------------------------------------------------Configuration
 ; The main executable name without the .exe
 #define GameName "SamabakeScramble"
@@ -48,7 +48,7 @@ LZMAUseSeparateProcess=yes
 ;Usual settings: 208576 273
 LZMADictionarySize=208576
 LZMANumFastBytes=273
-LZMANumBlockThreads=8
+LZMANumBlockThreads=16
 DiskSpanning=yes
 DiskSliceSize=4294967295
 
@@ -86,8 +86,6 @@ Source: "Input\_Patch\st_9_unhollowed\*";   DestDir: "{app}"; Flags: ignoreversi
 ; -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ; This include should be here because the patch files above can be overwritten by this include, and the Files section below overwrites some config files that this include extracts
 #include "components.iss"
-
-;#include "HelperLib\DirectXredist.iss"
 
 [Files]
 #ifndef DEBUG
@@ -143,6 +141,7 @@ Type: filesandordirs; Name: "{app}\abdata\sound\data\bgm\custom";         Compon
 
 ; Problematic config files
 Type: files; Name: "{app}\BepInEx\config\SVS_HSceneAddOn.cfg";
+Type: filesandordirs; Name: "{app}\BepInEx\config\ILL_SliderUnlocker";         Components: Content\SliderUnlock
 
 
 [CustomMessages]
