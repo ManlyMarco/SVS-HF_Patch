@@ -143,6 +143,8 @@ Type: filesandordirs; Name: "{app}\abdata\sound\data\bgm\custom";         Compon
 Type: files; Name: "{app}\BepInEx\config\SVS_HSceneAddOn.cfg";
 Type: filesandordirs; Name: "{app}\BepInEx\config\ILL_SliderUnlocker";         Components: Content\SliderUnlock
 
+[Dirs]
+Name: {app}\sardines; Components: Content\Fishbone\SardineTail
 
 [CustomMessages]
 MsgMissingDLC1=NOTICE - You are missing the optional Additional Personality Pack (2024-11-01 Paid DLC). It adds 6 new female personalities (voiced), and 2 new male personalities (non-voiced).%n%nThis DLC is optional, the patch will work fine without it. If you want to use it, install it BEFORE running HF Patch.
