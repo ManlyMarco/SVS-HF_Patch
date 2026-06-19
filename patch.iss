@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer Vacation! Scramble"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "1.12"
+#define VERSION "2.0"
 ;-----------------------------------------Sideloader modpack directory
 ;#define GameDir N/A
 ;--Don't include any files in the build to make it go fast for testing
@@ -162,10 +162,10 @@ Name: delete\scripts; Description: "Delete old scripts (ScriptLoader, frida)"
 Name: delete\Listfiles; Description: "{cm:TaskDeleteLst}"; Flags: unchecked
 
 [Icons]
-Name: "{userdesktop}\{cm:IconGame}"; Filename: "{app}\SamabakeScramble.exe"; IconFilename: "{app}\SamabakeScramble.exe"; WorkingDir: "{app}\"; Flags: createonlyiffileexists; Tasks: desktopicon; Comment: "{cm:IconGame}"
+Name: "{userdesktop}\{cm:IconGame}"; Filename: "{app}\InitSetting.exe"; IconFilename: "{app}\SamabakeScramble.exe"; WorkingDir: "{app}\"; Flags: createonlyiffileexists; Tasks: desktopicon; Comment: "{cm:IconGame}"
 
 [Run]
-Filename: "{app}\SamabakeScramble.exe"; Description: "{cm:RunGame}"; Flags: postinstall runasoriginaluser nowait skipifsilent skipifdoesntexist
+Filename: "{app}\InitSetting.exe"; Description: "{cm:RunGame}"; Flags: postinstall runasoriginaluser nowait skipifsilent skipifdoesntexist
 ;Filename: "{app}\[UTILITY] KKManager\StandaloneUpdater.exe"; Parameters: """{app}"""; Description: "{cm:StartUpdate}"; Flags: postinstall runascurrentuser unchecked nowait skipifsilent skipifdoesntexist
 #include "HelperLib\CommonRun.iss"
 

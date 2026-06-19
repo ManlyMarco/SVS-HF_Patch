@@ -53,8 +53,8 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
 
-# Custom intro voices v34.0
-- Short description: Gitgoon
+# Custom intro voices v35.0
+- Short description: Satana perkele
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
 
@@ -62,6 +62,11 @@
 - Short description: Tries to balance some aspect of the game
 - Author(s):         DarkSoldier27
 - More information:  Discord
+
+# CustomPersonalitTraitLoader v1.1.0
+- Short description: Allows the use of custom personality and H traits
+- Author(s):         Amalev
+- More information:  KK Discord
 
 # DisplayofThumbnails v0.1.0.2
 - Short description: Enlarges some lists in character maker
@@ -83,12 +88,27 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
+# EternalVirgin v1.0.0
+- Short description: Adds a new personality trait
+- Author(s):         Amalev
+- More information:  KK Discord
+
+# ExpandCharacterRoster v1.1
+- Short description: Increases the character limit up to 96 (Heavy on RAM!)
+- Author(s):         DarkSoldier27
+- More information:  KK Discord
+
+# FadeController v1.0.1
+- Short description: Allows customizing the scene transition
+- Author(s):         DarkSoldier27
+- More information:  KK Discord
+
 # FavorabilityGainController v1.3.1
 - Short description: Allows changing point gain from interactions
 - Author(s):         DarkSoldier27
 - More information:  Discord
 
-# Fishbone v4.0.0
+# Fishbone v4.1.0
 - Short description: Plugin api to serialize and deserialize character or coordinate bound extension data
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-Fishbone
@@ -118,7 +138,7 @@
 - Author(s):         PhillyStyle
 - More information:  https://github.com/PhillyStyle/SVS_HStartClothingState
 
-# Hardmod pack 2025/05/06
+# Hardmod pack 2026/06/18
 - Short description: Numerous clothing and accessory mods. Can't be uninstalled, CAN CAUSE ISSUES!
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
@@ -133,17 +153,22 @@
 - Author(s):         TonWonton
 - More information:  https://github.com/TonWonton/ILL_HSceneBreastJiggle
 
-# IllusionFixes_IL2CPP v22.1
+# IllusionFixes_IL2CPP v22.2
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionFixes
+
+# IllusionLaunchers v3.5.1.0
+- Short description: Custom game launcher
+- Author(s):         https://github.com/IllusionMods
+- More information:  https://github.com/IllusionMods/IllusionLaunchers
 
 # JumpLister v1.1
 - Short description: Adds useful options to the game's Jump List in taskbar right-click menu
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
 
-# KKManager v1.8.0.0
+# KKManager v1.11.0.0
 - Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -153,7 +178,7 @@
 - Author(s):         Sauceke
 - More information:  https://github.com/Sauceke/LoveMachine
 
-# Map Expansion v1.0.0
+# Map Expansion v1.0.1
 - Short description: Custom maps for the game
 - Author(s):         DarkSoldier27
 - More information:  Koikatsu discord server
@@ -167,6 +192,16 @@
 - Short description: Mute the game when it's not in focus, configure in plugin settings
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
+
+# NightVisitManager v1.0.0
+- Short description: Balances the night visit mechanic
+- Author(s):         Amalev
+- More information:  KK Discord
+
+# NPCSubtitles v0.7.1
+- Short description: Adds subtitles to NPCs conversation (Not complete)
+- Author(s):         DarkSoldier27
+- More information:  KK Discord
 
 # PelvicFin v1.2.0
 - Short description: Allows modifying miscellaneous character statuses in character creation and H scenes
@@ -198,7 +233,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/RuntimeUnityEditor
 
-# SardineTail v2.2.0
+# SardineTail v2.2.1
 - Short description: Fundamental plugin to develop soft mods for SamabakeScramble
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineTail
@@ -223,7 +258,7 @@
 - Author(s):         TonWonton
 - More information:  https://github.com/TonWonton/SVS_Ahegao
 
-# SVS_BepisPlugins v21.1.2.1
+# SVS_BepisPlugins v21.1.3
 - Short description: Essential plugins required by many other plugins to function
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
@@ -253,7 +288,7 @@
 - Author(s):         Amalev
 - More information:  KKDiscord
 
-# SVS_MapLoader v0.9.1
+# SVS_MapLoader v0.9.3
 - Short description: Adds extra functionality for custom maps
 - Author(s):         DarkSoldier27
 - More information:  Discord
@@ -268,10 +303,15 @@
 - Author(s):         ekibun
 - More information:  KK discord
 
-# SVS_SardineHead v2.2.0
+# SVS_SardineHead v2.3.0
 - Short description: Runtime texture and material modifier tool for character creator
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
+
+# SVS_SixthSense v1.2.1
+- Short description: Gives you information about events that are happening in the game
+- Author(s):         DarkSoldier27
+- More information:  KK Discord
 
 # SVS_SliderUnlock v99.9.9
 - Short description: Unlocks ranges of most character maker sliders
@@ -308,7 +348,7 @@
 - Author(s):         Unknown
 - More information:  Koikatsu Discord Server
 
-# XUnity Auto Translator v5.5.1
+# XUnity Auto Translator v5.6.1
 - Short description: Translation loader, automatic web translations
 - Author(s):         https://github.com/bbepis
 - More information:  https://github.com/bbepis/XUnity.AutoTranslator
