@@ -13,7 +13,7 @@
 - Author(s):         TonWonton
 - More information:  https://github.com/TonWonton/ILL_BeautifySettings
 
-# BepInEx.ConfigurationManager v18.4.1
+# BepInEx.ConfigurationManager v19.1
 - Short description: Can change plugin settings. Press F1 to open
 - Author(s):         BepInEx (anonymous IL2CPP port)
 - More information:  https://github.com/BepInEx/BepInEx.ConfigurationManager
@@ -23,7 +23,7 @@
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx.SplashScreen
 
-# BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.752
+# BepInEx-Unity.IL2CPP win-x64 v6.0.0-be.791
 - Short description: Plugin framework
 - Author(s):         https://github.com/BepInEx
 - More information:  https://github.com/BepInEx/BepInEx
@@ -48,13 +48,13 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/IllusionCheatTools
 
-# Clothing State Menu v5.2
+# Clothing State Menu v5.2.1
 - Short description: Can undress in chara maker and in H scenes
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/Illusion_ClothingStateMenu
 
-# Custom intro voices v35.0
-- Short description: Satana perkele
+# Custom intro voices v36.0
+- Short description: Get sent to Poland
 - Author(s):         ManlyMarco
 - More information:  https://www.youtube.com/watch?v=SZBQ4lQFqvw
 
@@ -78,12 +78,12 @@
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-DorsalFin
 
-# Enable Full Screen Toggle v0.7
+# Enable Full Screen Toggle v0.7.1
 - Short description: Allow toggling full screen with Alt+Enter
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# Enable Resize v0.7
+# Enable Resize v0.7.0.1
 - Short description: Enable resizing of game window
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
@@ -123,7 +123,7 @@
 - Author(s):         https://github.com/ManlyMarco
 - More information:  https://github.com/ManlyMarco/FPSCounter
 
-# Graphics Settings v0.7
+# Graphics Settings v0.8.0.1
 - Short description: More graphics settings, access from plugin settings
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
@@ -143,22 +143,22 @@
 - Author(s):         Multiple
 - More information:  Koikatsu discord server
 
+# HC Positions Port vR7
+- Short description: HoneyCome(HC) H positions ported to Summer Vacation! Scramble
+- Author(s):         y0soro
+- More information:  https://github.com/y0soro/ILL_Plugins
+
 # HSceneAnimationSpeed v1.0.0
 - Short description: Allows setting a custom animation speed during H
 - Author(s):         TonWonton
 - More information:  https://github.com/TonWonton/ILL_HSceneAnimationSpeed
-
-# HSceneBreastJiggle v1.0.2
-- Short description: Allows setting custom values for breast softness and weight during H
-- Author(s):         TonWonton
-- More information:  https://github.com/TonWonton/ILL_HSceneBreastJiggle
 
 # IllusionFixes_IL2CPP v22.2
 - Short description: A collection of essential fixes and improvements
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionFixes
 
-# IllusionLaunchers v3.5.1.0
+# IllusionLaunchers v3.6.0.0
 - Short description: Custom game launcher
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/IllusionLaunchers
@@ -168,7 +168,7 @@
 - Author(s):         ManlyMarco
 - More information:  https://github.com/ManlyMarco/JumpLister
 
-# KKManager v1.11.0.0
+# KKManager v1.12.0.0
 - Short description: Manage and update mods, browse cards
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/KKManager
@@ -188,13 +188,18 @@
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
+# MoreActions v1.1
+- Short description: Allows the creation of new actions for the player
+- Author(s):         DarkSoldier27
+- More information:  Discord
+
 # Mute In Background v0.7
 - Short description: Mute the game when it's not in focus, configure in plugin settings
 - Author(s):         SpockBauru, ManlyMarco
 - More information:  https://github.com/SpockBauru/SpockPlugins_BepInEx
 
-# NightVisitManager v1.0.0
-- Short description: Balances the night visit mechanic
+# NightVisitManager v1.1.0
+- Short description: Balances the night visit mechanic (Not compatible with CustomGameBalance)
 - Author(s):         Amalev
 - More information:  KK Discord
 
@@ -213,7 +218,7 @@
 - Author(s):         Amalev
 - More information:  Discord
 
-# PersonalityLoader v0.6.2
+# PersonalityLoader v0.7.1
 - Short description: Enables custom personalities to work in the game
 - Author(s):         DarkSoldier27
 - More information:  Discord
@@ -222,6 +227,11 @@
 - Short description: After H, clothing state will persist until the end of period based on config
 - Author(s):         PhillyStyle
 - More information:  https://github.com/PhillyStyle/SVS_PostHClothingStatePersistence
+
+# Pregnancy v1.0.0
+- Short description: Adds new pregnancy related gameplay function to the game
+- Author(s):         Amalev
+- More information:  Discord
 
 # ProcessorAffinityOverride v1.0
 - Short description: Overrides processor affinity, needed to fix game crashes on Ryzen 3xxx systems
@@ -253,12 +263,17 @@
 - Author(s):         DarkSoldier27
 - More information:  Koikatsu discord server
 
-# SVS_Ahegao v1.1.0
-- Short description: Allows setting different faces for different states
-- Author(s):         TonWonton
-- More information:  https://github.com/TonWonton/SVS_Ahegao
+# SVS_ADVLoader v1.2
+- Short description: Allows the loading of custom ADV files into the game(Character Dialogues)
+- Author(s):         DarkSoldier27
+- More information:  Discord
 
-# SVS_BepisPlugins v21.1.3
+# SVS_ADVLoaderAP v1.0
+- Short description: Animations for the ADVLoader
+- Author(s):         DarkSoldier27
+- More information:  Discord
+
+# SVS_BepisPlugins v21.1.4.1
 - Short description: Essential plugins required by many other plugins to function
 - Author(s):         https://github.com/IllusionMods
 - More information:  https://github.com/IllusionMods/BepisPlugins
@@ -293,7 +308,7 @@
 - Author(s):         DarkSoldier27
 - More information:  Discord
 
-# SVS_MoreOutfits v1.1
+# SVS_MoreOutfits v1.3
 - Short description: Adds 4 new outfits slots with custom conditions for NPCs
 - Author(s):         DarkSoldier27
 - More information:  KKDiscord
@@ -308,7 +323,7 @@
 - Author(s):         MaybeSamigroup
 - More information:  https://github.com/MaybeSamigroup/SVS-SardineHead
 
-# SVS_SixthSense v1.2.1
+# SVS_SixthSense v1.3
 - Short description: Gives you information about events that are happening in the game
 - Author(s):         DarkSoldier27
 - More information:  KK Discord

@@ -7,7 +7,7 @@
 ;-------------Full game name for naming patch itself and desktop icons
 #define NAME "Summer Vacation! Scramble"
 ;---------------------------------------------Current HF Patch version
-#define VERSION "2.0"
+#define VERSION "2.1"
 ;-----------------------------------------Sideloader modpack directory
 ;#define GameDir N/A
 ;--Don't include any files in the build to make it go fast for testing
@@ -160,6 +160,7 @@ Name: delete\Plugins; Description: "{cm:TaskDeletePlugins}";
 Name: delete\Config; Description: "{cm:TaskDeletePluginSettings}"; Flags: unchecked
 Name: delete\scripts; Description: "Delete old scripts (ScriptLoader, frida)"
 Name: delete\Listfiles; Description: "{cm:TaskDeleteLst}"; Flags: unchecked
+Name: delete\Sardines; Description: "Delete existing sardine mods"
 
 [Icons]
 Name: "{userdesktop}\{cm:IconGame}"; Filename: "{app}\InitSetting.exe"; IconFilename: "{app}\SamabakeScramble.exe"; WorkingDir: "{app}\"; Flags: createonlyiffileexists; Tasks: desktopicon; Comment: "{cm:IconGame}"
@@ -238,6 +239,9 @@ begin
     DeleteFile(ExpandConstant('{app}\d3d11.dll'));
     DeleteFile(ExpandConstant('{app}\frida-gadget.config'));
     DeleteFile(ExpandConstant('{app}\frida-gadget.dll'));
+    
+  if WizardIsTaskSelected('delete\Sardines') then
+    DelTree(ExpandConstant('{app}\sardines'), True, True, True);
   end;
 end;
 
